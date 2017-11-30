@@ -1,0 +1,77 @@
+/********************* Tabs *****************************/
+
+	/*********** For magazine page ************/
+	.magazine #tabs h5 {
+		max-width: 240px;
+		font-size:16px;
+		border:1px solid #b7b7b7;
+		background-color:#eeeeee;
+		 }
+
+    .magazine #tabs ul.addopps:first-of-type {
+	   position:absolute; top:47px; background:#fff;width:99.5%; color:#000;z-index:2000; margin-left:0px;}
+	   
+	.magazine #tabs ul.addopps:first-of-type {	   
+		max-width:240px; border:0; right:0px; top:55px;
+		border-left:1px solid #b7b7b7; 
+		border-right:1px solid #b7b7b7;
+		border-bottom: 0px; 		 				
+	}
+	   
+   .magazine #tabs ul.addopps:first-of-type li {float:none;}
+   .magazine #tabs ul.addopps li:first-of-type {clear:both; border-top: 0px !important;}
+   
+   .magazine #tabs ul.addopps {
+	   border-left:1px solid #333;
+	   border-right:1px solid #333; 
+       border-bottom:1px solid #b7b7b7; 	   
+	   }
+	   
+   .magazine #tabs ul.addopps li {float:none;display:none;}    
+   .magazine #tabs ul.show li { display:block;z-index:1; }
+   .magazine #tabs ul.addopps:nth-of-type(1) li { 
+   		float:none; margin:0px; 
+		background-color:#fff;  
+		border-top:1px solid #000; 
+		color:#fff
+		}
+	.magazine #tabs ul.addopps:nth-of-type(1) li {
+		border-bottom:1px solid #b7b7b7; 
+		border-top:0px; 		
+		}		
+		
+   .magazine #tabs ul li:last-child { background:none;  }
+   .magazine #tabs ul.addopps li a, .magazine #tabs ul.addopps li a.active {  
+   		display:block; padding:8px 10px;  
+		margin-left:0px;border-top:5px solid #fff; 
+		width:90%;
+		}
+   .magazine #tabs ul.addopps li a:hover, .magazine #tabs ul li.ui-tabs-active a {
+	background: #fff none repeat scroll 0% 0%;
+	color: #000;
+	text-decoration: none;
+
+   }
+
+	.magazine #tabs ul.addopps li.ui-tabs-active a, 
+	.magazine #tabs ul.addopps li a:hover {
+		border-bottom:0px;
+		color:#ed3830;
+		}
+
+	.magazine #tabs .tabcontent h4.tabHead {width: 50%; margin-top:-40px; font-weight: 500;font-family:'Roboto Slab', sans-serif;}
+	
+
+	
+	
+
+@media screen and (min-width: 958px) {
+	
+ /************ tabs Magazine Page ***************/
+	.magazine #tabs h5 {
+    	display: block;
+	}
+   
+}
+
+.magazine #tabs i:hover {cursor:pointer;}	 

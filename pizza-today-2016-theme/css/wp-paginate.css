@@ -1,0 +1,19 @@
+<style>
+.wp-paginate .current {
+    color: #868686 !important;
+    background: none !important;
+    border: none !important;
+    margin-right: 4px !important;
+    padding: 4px 8px !important;
+}
+
+.wp-paginate a {
+    color: rgb(236, 57, 52) !important;
+    margin-right: 4px !important;
+    padding: 4px 8px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    background: none !important;
+    border: none !important;
+}
+</style>

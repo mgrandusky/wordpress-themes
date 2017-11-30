@@ -1,0 +1,37 @@
+/*  
+Theme Name: Impressions Magazine Theme
+Theme URL: http://www.emeraldexpositions.com
+Author: Mason Grandusky, Web Developer
+Client: Impressions 
+Client URL: http://www.impressionsmagazine.com/
+Version: 1.0
+Description: Custom WordPress theme designed by <a href="http://www.emeraldexpositions.com/">Emerald Expositions</a>. XHTML and CSS valid.
+*/
+.seo {
+	font-size: 16px !important;
+	margin-bottom:20px;
+}
+.seo p{
+	font-size: 16px !important;
+	margin-top:0px;
+}
+.stButton .stLarge  {background-image: none !important}
+#slider .royalSlider{height: 545px;}
+img.rsImg {
+  max-width: none;
+  width: 100%;
+  height: auto;
+  margin: 3px auto 3px !important;
+}
+.alignleft {
+  float:left;
+  margin: 0px 15px 15px 0px;
+}
+a.psheadline { color: #000; }
+a.psheadline:hover {
+    color: #00739e;
+}
+.ad-space #IMP_sliding_billboard {
+	width:1280px;
+	margin:0px auto;
+}

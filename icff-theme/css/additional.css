@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+#brand {padding-top:20px;}
+
+#brand .header-leftCol {display:block; float:none; text-align:center; margin-top:20px; }
+	.header-leftCol a {}
+	.header-leftCol p {
+		text-transform: uppercase; 
+		color: #ff5a34; 
+		font-weight:600; 
+		font-size:14px; 
+		display: block; 
+		margin-left: 10px; 
+		margin-right:10px;
+		margin-top:0px;}
+
+#brand .header-rightCol {display:block; float:none; text-align:center;}
+	.header-rightCol .date {
+			display:inline-block;
+			margin-right:15px;
+			padding-right:15px; 
+			border-right:1px solid #000;
+			text-align:right;
+			float:none;
+			vertical-align:top;
+			}
+			
+	.header-rightCol .location {display:inline-block; vertical-align:top; color:#000}			
+	.header-rightCol .reg-button {display:inline-block;	padding-left:20px;
+		}	
+	.reg-button	a.button {
+		display:block; 
+		color:#fff;
+		font-size: 1.5em;
+		padding:15px;
+		text-transform:uppercase;
+		font-weight:900;
+		text-align:center;
+		margin-bottom:5px;
+	}
+		
+	.header-rightCol .reg-button a.button:hover {background-color:#000;}		
+	.header-rightCol a.button.light {background-color:#ff5a34;}	
+	.header-rightCol a.button.dark {background-color:#837870;}	
+		
+	
+		@media screen and (min-width: 1280px) {
+		#brand .header-leftCol {display:inline-block; float:none; margin-top:0px;}
+		#brand .header-rightCol {display:inline-block; float:right}
+		.reg-button	a.button {
+			padding:15px;font-size: 1.5em;
+		}		
+		}
+		
+		#brand .header-rightCol .tag {color:#000}
+
+		@media screen and (min-width: 767px) and (max-width: 1157px) {
+			.header-rightCol .head {	font-size: 1.25em !important;}
+			
+			.header-rightCol .tail,
+				.header-rightCol .tag,
+				.header-rightCol .tag2 {
+					font-size: 1em !important;
+			}
+			
+			#brand .header-leftCol {margin-top:20px;}
+			#brand .header-rightCol {margin-top: 20px;}			
+			.reg-button	a.button {font-size:1em;}			
+			
+		}
+		
+		
+		@media screen and (max-width: 767px) {
+			#brand {padding:20px 10px 20px 10px;}
+			#brand .header-rightCol .location,
+			#brand .header-rightCol .reg-button  { 
+				display:block;
+				max-width:280px;
+				text-align:center;
+				margin:10px auto !important;
+			}
+			.reg-button	a.button {font-size:1em;}
+		}
+/****************** hr rule **********************/		
+hr.thick {background-color:#000; width:100%; height:10px; border:0; margin-top:0px;}		
+hr.thin { border:0; border-bottom: 1px solid #000;max-width:1260px;margin-top: 30px;padding: 0px;margin-bottom:0px; width:100%}		
+		
+/***************** for homepage only**************/
+ 		.home #sidebar {margin-top:0px;}
+		.home #main {padding-top:0px;}
+
+/************** Countdown ***********************/
+
+
+.clock-outsideContainer {background-color:#9f005d}
+.clock-section {background-color:#9f005d; padding:3px 1%; width:100%; text-align:center; margin:0px auto;}
+
+.clock-container {
+	max-width: 1260px; 
+	margin:0 auto;
+	}
+	.clock-container a {text-decoration:none;}
+	
+		.clock-left-col, .clock-right-col, #countdown_dashboard {
+			display:inline-block;
+			vertical-align:top; 
+			padding:0px; 
+		}	
+			
+		.clock-left-col {margin: 0 auto; width: 100%; text-align:center; display:inline-block;vertical-align:middle;padding:0px; }	
+			.clock-left-col p { font: normal 36px 'PT Sans',sans-serif; line-height:1.05em; margin:0; color:#fff;  }
+			.clock-left-col strong {font-weight:900;}			
+			
+		.clock-right-col {  text-align:center; padding-top:0px; width:100%;}
+			.clock-right-col p 	{
+				font:normal 24px/1.333em 'PT Sans', serif ; color:#fff;
+				display:inline-block; vertical-align:middle; margin:10px 5px 0px;
+			}			
+			
+		#countdown_dashboard {
+    			max-width:375px; 
+				text-align:center; 
+				margin:0 auto;
+				width:100%;
+				display:inline-block;
+				vertical-align:middle;
+				padding:0px;
+	}			
+	
+	.countdown-head > div {font-weight: bold;font-size: 72px; font-family:'PT Sans',serif; }
+	.countdown-head > div > div {float: left;text-align: center;max-width: 31%;margin:5px 3px 5px 2px;}
+	.countdown-head > div > div  > div{background-color:#FFF; padding:4px 5px; line-height:1em; color:#6a033a}			
+	.countdown-head > div > div > span {font-size: 16px;display: block; text-align: center;text-transform: uppercase; background-color:#9f005d; color:#fff; font-weight:normal;}
+	
+	.reg-btn-rnd {
+		margin: 0 auto;
+  	    border-radius: 25px;
+    	border: 3px solid #fff;
+	    padding: 5px 18px;
+		font:normal 24px 'PT Sans', serif ;		
+		text-transform: uppercase;
+		color:#9f005d;
+		display:block;
+		margin-top:5px;
+		background-color:#FFF
+	}	
+	.reg-btn-rnd:hover {background-color:#000; color:#fff}	
+	
+			
+		
+		@media (min-width: 967px) {	
+					
+			#countdown_dashboard { margin-top:10px; }
+			.clock-left-col { max-width:100%; width:calc(100% - 375px - 310px - 2%); text-align:left;}	
+			.clock-right-col { max-width:310px; width:100%; float:right;margin-top:20px;}
+
+	        .clock-left-col	p {font-size:40px;}	
+			.clock-right-col p {float:right; display:block; }			
+			.reg-btn-rnd {font-size:  24px; line-height:32px; }	
+			.countdown-head > div {font-weight: bold;font-size: 66px; font-family:'PT Sans',serif; }			
+
+		}
+		
+		@media (min-width: 1200px) {	
+			.countdown-head > div {font-size: 72px;}			
+			#countdown_dashboard {max-width:405px;}		
+			.clock-left-col { width:calc(100% - 405px - 310px - 2%); }				
+		}
+	
+		
+		@media screen and (max-width: 966px){ 
+		.clock-section {padding-top:10px; padding-bottom:10px;}		
+		#countdown_dashboard {max-width:400px;}
+		.clock-left-col {  max-width:240px; }
+
+		.clock-right-col {width:98%; display:block}
+		.reg-btn-rnd {font-size:  20px; padding-right:10px; padding-left:10px;}				
+		.countdown-head > div {font-size: 65px; }
+		
+		}
+	
+		@media screen and (max-width: 480px){
+			#countdown_dashboard {max-width:290px;}			
+			.clock-left-col	p {font-size:30px;}	
+			.clock-right-col p {font-size: 20px }	
+			.countdown-head > div {font-size: 46px !important; }
+			.countdown-head > div > div > span {font-size: 12px;}			
+		}	
+
+
+
+
+		
+		

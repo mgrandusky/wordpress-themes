@@ -1,0 +1,171 @@
+
+#tabs {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#tabs h6 {
+    display: block;
+    width: 100%;
+    margin: 15px 0 0 0;
+	border-bottom:5px solid #000;	
+}
+
+	#tabs h6 a {
+    	background: #40748e url("../images/caret.png") no-repeat scroll 98% center;
+	    display: block;
+    	color: #fff;
+	    padding: 10px;
+    	font:400 1.5em "Tungsten", sans-serif;
+		text-transform:uppercase;
+	}
+
+#tabs ul.addopps:first-of-type {
+    position: absolute;
+    top: 44px;
+    background: #40748e;
+    width: 99.5%;
+    color: #fff;
+    z-index: 2000;
+    margin-left: 0px;
+	
+}
+
+#tabs ul.addopps li:first-of-type {
+    clear: both;
+}
+
+#tabs ul.addopps:nth-of-type(1) li {
+    float: none;
+    margin-right: -3px;
+    background-color: #40748e;
+}
+
+#tabs ul.addopps li {
+    float: none;
+    display: none;
+}
+
+#tabs ul.show li {
+    display: block;
+    z-index: 5;
+}
+
+#tabs ul.addopps li a {outline-style: none;}
+
+#tabs ul.addopps li a, #tabs ul.addopps li a.active {
+    display: block;
+    padding: 10px;
+    margin-left: 0px;
+    color: #fff;
+    font-weight: bold;
+	text-transform:uppercase;
+	font:400 1.5em "Tungsten", sans-serif;
+}
+
+#tabs ul.addopps li a:hover, #tabs ul li.ui-tabs-active a {
+    background: #000000 none repeat scroll 0% 0%;
+    text-decoration: none;
+}
+
+
+.section-row {
+    border-top: 1px solid #40748e;
+    padding: 20px 0;
+	display:block;
+}
+
+	#tab1 > div.section-row:first-child,
+	#tab2 > div.section-row:first-child,
+	#tab3 > div.section-row:first-child,
+	#tab4 > div.section-row:first-child,    {border-top:0px;}
+
+.copy-text {display:block; margin-right:15px;}
+	section .copy-text p {margin-bottom:0px; margin-top:20px;}
+
+.tab-right {display:block; width:100%; max-width:220px;}
+	.tab-right .price {font:bolder 1.875em "Source Sans Pro", san-serif; color:#f28b00; }
+	.copy-text .price {font-weight:bold;color:#f28b00;}
+	
+	
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+	
+	
+	}
+	
+@media only screen and (min-width: 768px) {
+	
+
+	
+	}	
+	
+@media screen and (min-width: 958px) {
+	
+	#tabs h6 {
+    	display: none;
+	} 		
+	
+	#tabs ul.addopps {
+    	border: none;
+	    list-style: none outside none;
+    	margin: 0px;
+	    padding: 0px;
+	}	
+	
+	#tabs ul.addopps:first-of-type {
+    	position: relative;
+	    top: 0px;
+		width:100%;
+		border-bottom:5px solid #000;		
+	}	
+
+	#tabs ul.addopps li {
+	    display: inline-block;
+    	margin-right: -1px;
+	    text-indent: 0em;
+    	padding: 0px;
+	}	
+	
+	#tabs ul.addopps:nth-of-type(1) li {}	
+	
+	#tabs ul.addopps li a {
+	    padding: 8px 18px 8px;
+    	margin: 0px;
+	    border: none;
+		width: auto;
+	}	
+	
+	#tabs ul.addopps li a.active { width: auto;}	
+	#tabs ul.addopps li.ui-tabs-active a, #tabs ul.addopps li a:hover {	}
+	
+
+.section-row {display:flex;}	
+.copy-text {}
+.tab-right {display:inline-block; width:36%; flex: 1 0 auto}	
+	
+	
+	}	
+
+@media only screen and (min-width: 1000px) {
+	
+	
+	}
+	
+
+@media only screen and (min-width: 1140px)  { 
+
+
+
+}	
+
+@media only screen and (min-width: 1300px) {
+
+
+	
+}

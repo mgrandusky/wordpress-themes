@@ -1,0 +1,355 @@
+/*  
+Theme Name: NY Now Theme
+Theme URL: http://www.emeraldexpositions.com
+Author: Mason Grandusky, Web Developer
+Client: NY Now
+Client URL: http://www.nynow.com/
+Version: 1.0
+Description: Custom WordPress theme designed by <a href="http://www.emeraldexpositions.com/">Emerald Expositions</a>. XHTML and CSS valid.
+*/
+
+
+
+.spot {
+    width: 47%;
+    margin-right: 2%;
+    float: left;
+}
+.spot img {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 24px 0px 10px;
+}
+@media screen and (max-width: 320px){
+	.ibps-product-image { margin-left:-4px !important; }
+	#sidebar .ad-space { padding:0px !important; background:#fff; }
+}
+.visible-high { float: right;border-left: 1px solid #000;padding-left: 20px;margin-bottom:70px;margin-left:10px; }
+
+@media screen and (max-width: 950px){
+.visible-high { float: right;border-left: 1px solid #000;padding-left: 20px;margin-bottom:130px;margin-left:10px; }
+}
+.visible-low { display:none; }
+
+@media screen and (max-width: 767px){
+	.visible-high { display:none; }
+	.visible-low { display:block; }
+	footer .ad-space { display:none; }
+	footer .ad-space-bottom-border { display:none; }
+}
+
+.gsection {
+    border-bottom: none !important;
+    padding:30px 0px 0px 0px;
+    margin-top: 0px;
+    clear: both;
+}
+.gform_wrapper .ginput_complex input[type="text"], .gform_wrapper .ginput_complex input[type="url"], .gform_wrapper .ginput_complex input[type="email"], .gform_wrapper .ginput_complex input[type="tel"], .gform_wrapper .ginput_complex input[type="number"], .gform_wrapper .ginput_complex input[type="password"], .gform_wrapper .ginput_complex select {
+    width: 100% !important;
+}
+
+.gform_wrapper .ginput_complex .ginput_right input[type="text"], .gform_wrapper .ginput_complex .ginput_right input[type="url"], .gform_wrapper .ginput_complex .ginput_right input[type="email"], .gform_wrapper .ginput_complex .ginput_right input[type="tel"], .gform_wrapper .ginput_complex .ginput_right input[type="number"], .gform_wrapper .ginput_complex .ginput_right input[type="password"], .gform_wrapper .ginput_complex .ginput_right select {
+   width: 100% !important;
+}
+
+.gform_wrapper .top_label input.large, .gform_wrapper .top_label select.large, .gform_wrapper .top_label textarea.textarea {
+    width: 100%;
+}
+
+.gform_wrapper .ginput_complex .ginput_full input[type="text"], .gform_wrapper .ginput_complex .ginput_full input[type="url"], .gform_wrapper .ginput_complex .ginput_full input[type="email"], .gform_wrapper .ginput_complex .ginput_full input[type="tel"], .gform_wrapper .ginput_complex .ginput_full input[type="number"], .gform_wrapper .ginput_complex .ginput_full input[type="password"] {
+    width: 100% !important;
+}
+
+.job_filters .showing_jobs a {
+    float: right;
+    padding-left: 10px;
+    border: 0px none;
+    color:#F08D3C;
+}
+
+.rp4wp-related-job_listing > ul li.job_listing, .rp4wp-related-job_listing > ul li.no_job_listings_found, ul.job_listings li.job_listing, ul.job_listings li.no_job_listings_found {
+    list-style: outside none none;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #EEE;
+    width: 100%;
+    max-width: 930px;
+}
+#sidebar .gform_button  { position:absolute;background: #ff5a34;color:#fff;padding:0px 10px;height:30px;border:none;}
+
+.gform_button  { 
+	background-color: #ff5a34;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	padding: 15px;
+	border: none;
+}
+.gform_button:hover{
+	background-color: #000 !important; 
+	text-decoration: none!important;
+}
+.gform_wrapper .gform_footer {
+    padding: 10px 0px 10px;
+    margin: 0px 0px 0px;
+    clear: both;
+}
+
+#sidebar .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+    width: 100%;
+
+
+}
+
+#sidebar .gform_wrapper .top_label .gfield_label {
+    margin: 10px 0px 4px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.3em;
+    clear: both;
+    display: none;
+}
+
+#sidebar .gform_wrapper form {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+
+.wp-paginate .current {
+    color: #FFF;
+    background: none repeat scroll 0% 0% #000;
+    border: 1px solid #000;
+    margin-right: 4px;
+    padding: 4px 8px;
+}
+.wp-pagenavi span.current {
+   color: #FFF;
+    background: none repeat scroll 0% 0% #000;
+    border: 1px solid #000;
+    margin-right: 4px;
+    padding: 4px 8px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+    background: none repeat scroll 0% 0% #DDD;
+    border: 1px solid #CCC;
+    color: #666;
+    margin-right: 4px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wp-pagenavi {
+    clear: both;
+    margin-left: 95px;
+}
+
+@media screen and (max-width: 1250px){
+	#brand {
+		padding: 10px 20px 20px 20px;
+	}
+	#brand > div {
+margin-top: 20px;
+}
+	.tagline { clear:both;margin-top:0px !important; }
+}
+
+@media screen and (min-width:767px) and (max-width: 910px){
+	.head {font-size:1.25em !important; }
+	.tail {font-size:1.0em !important; }
+	.tag {font-size:1.0em !important; }
+	.tag2 {font-size:1.0em !important; }
+	#brand > div {
+margin-top: 40px;
+}
+}
+@media screen and (min-width:320px) and (max-width: 767px){
+#brand > div {
+margin-top: 10px !important;
+display: block !important;
+margin: auto;
+clear: both;
+text-align: center !important;;
+float: none !important;
+}
+#brand > div > div { text-align:center !important;float:center !important; border-right:0px !important; margin-right:0px !important;padding-right:0px !important; padding-left:0px !important; }
+.tagline { margin-top:0px !important; }
+.location { margin-top:10px !important;padding-top:10px !important;border-top:1px solid #000; }
+}
+
+.seo h1 {font-size:14px;}
+.seo h2 {font-size:14px;}
+
+#sidebar .gform_wrapper li, .gform_wrapper form li {
+    margin-left: 0px !important;
+    list-style: outside none none !important;
+    overflow: visible;
+    margin-top: 10px;
+}
+
+#sidebar .gform_wrapper .gform_footer {
+    padding: 16px 0px 10px;
+    margin: -10px 0px 0px;
+    clear: both;
+}
+
+img.rsImg {
+    max-width: none;
+    margin-top: 0px !important;
+}
+
+.rsUni, .rsUni .rsOverflow, .rsUni .rsSlide, .rsUni .rsVideoFrameHolder {
+    background: none repeat scroll 0% 0% #222;
+    color: #FFF;
+   
+	max-height:450px !important; 
+}
+
+.gform_wrapper .gform_heading {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.gform_wrapper {
+    overflow: inherit;
+    margin: 0px;
+    max-width: 100%;
+}
+
+
+#choice_1_26_1 {display:none;}
+#label_1_26_1 {margin:0px; font-weight:bold; }
+#choice_1_26_5 {display:none;}
+#label_1_26_5 {margin:0px; font-weight:bold; }
+#choice_1_26_8 {display:none;}
+#label_1_26_8 {margin:0px; font-weight:bold; }
+
+.gform_wrapper .gsection {
+    border-bottom: 1px solid #CCC;
+    padding: 0px 0px 0.5em;
+    margin: 0px;
+    clear: both;
+}
+
+.ui-widget-content a {
+    color: #FF5A34;
+}
+.job-manager-application-wrapper .application .application_button, .single_job_listing .application .application_button { 
+color: rgb(255, 255, 255);
+background: rgb(255, 90, 52) none repeat scroll 0% 0%;
+padding: 10px 20px;
+border: medium none;
+width: 150px;
+}
+#submit-job-form .button {
+	color: rgb(255, 255, 255);
+background: rgb(255, 90, 52) none repeat scroll 0% 0%;
+padding: 10px 20px;
+border: medium none;
+width: 150px;
+}
+
+#submit-job-form .account-sign-in .button {
+	color:#fff;
+	font-size:13px;
+}
+
+#sidebar a.button.light.signup, .events a.button.light.signup, .hentry a.button.light.signup, #homemobile a.button.light.signup {
+    background-color: #FF5A34;
+    color: #fff;
+    font-size: 15px;
+    padding: 13px 25px 13px 25px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+
+.gform_wrapper .gform_heading {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.gform_wrapper {
+    overflow: inherit;
+    margin: 0px;
+    max-width: 100%;
+}
+
+
+#choice_1_26_1 {display:none;}
+#label_1_26_1 {margin:0px; font-weight:bold; }
+#choice_1_26_5 {display:none;}
+#label_1_26_5 {margin:0px; font-weight:bold; }
+#choice_1_26_8 {display:none;}
+#label_1_26_8 {margin:0px; font-weight:bold; }
+
+.gform_wrapper .gsection {
+    border-bottom: 1px solid #CCC;
+    padding: 0px 0px 0.5em;
+    margin: 0px;
+    clear: both;
+}
+
+.event img {
+    border: 0px none;
+    float: right;
+}
+.alignright {
+    float: right;
+    margin: 20px 0px 20px 10px;
+}
+.alignleft {
+    float: left;
+    margin: 20px 10px 20px 0px;
+}
+.aligncenter { 
+    display: block;
+    margin: 20px auto;
+}
+
+.body-content h3 {font-size:24px; margin:15px 0 6px;}
+.body-content h4 {margin:12px 0px 2px;  display: block; width:100%;}
+
+.flex-parent  {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.three-col p {
+        width: 48%;
+        max-width: 48%;
+        vertical-align: top;
+        margin-right: 20px;
+    }
+
+
+@media (min-width: 500px) {
+    .three-col p {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        vertical-align: top;
+        margin-right: 20px;
+    }
+}  
+
+@media (min-width: 768px) {
+    .three-col p {
+        width: calc(33% - 20px);
+        max-width: calc(33% - 20px);
+        vertical-align: top;
+    }
+}    
+
+

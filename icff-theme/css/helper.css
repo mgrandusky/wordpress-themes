@@ -1,0 +1,86 @@
+.cf:before,
+.cf:after {
+  display: table;
+  content: "";
+}
+.cf:after {
+  clear: both;
+}
+hr{
+	border: none;
+	border-bottom: 1px solid #000;
+}
+.alignleft, .left{float: left;}
+.alignright, .right{float: right;}
+.push{min-height: 193px;}
+.close{background-image: url('../img/menu-close.png') !important;background-repeat: no-repeat;}
+#wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -193px;
+}
+.search-open{background-color: #E2402E!important;color: #fff!important;}
+.button{
+	background-color: #164d8b;
+	height: 50px;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	padding-top: 8px;
+	color: #fff!important;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.button:hover{background-color: #000!important;
+	text-decoration: none!important;
+}
+
+.button-alt{
+	background-color: #000;
+	height: 50px;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	padding-top: 8px;
+	color: #fff!important;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.button-alt:hover{background-color: #164d8b!important;
+	text-decoration: none!important;
+}
+
+.button.dark{background-color: #211651; font-size: 2em;}
+.button.light{background: #888; font-size: 1.5em!important;padding: 8px;}
+
+@media screen and (min-width: 968px) {
+	.visible-desktop{}
+	.visible-tablet{display:none!important;}
+	.visible-phone{display:none!important;}
+	.hidden-desktop{display:none!important;}
+	.hidden-tablet{}
+	.hidden-phone{}
+	
+}
+@media screen and (min-width: 768px) and (max-width: 967px) {
+	.visible-desktop{display:none!important;}
+	.visible-tablet{}
+	.visible-phone{display:none!important;}
+	.hidden-desktop{}
+	.hidden-tablet{display:none!important;}
+	.hidden-phone{}
+	header>ul>li:nth-of-type(2)> div{
+	    border-left: 0!important;
+	}
+}
+@media screen and (min-width: 1px) and (max-width: 767px) {
+	.visible-desktop{display:none!important;}
+	.visible-tablet{display:none!important;}
+	.visible-phone{}
+	.hidden-desktop{}
+	.hidden-tablet{}
+	.hidden-phone{display:none!important;}
+}

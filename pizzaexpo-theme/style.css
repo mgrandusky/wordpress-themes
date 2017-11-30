@@ -1,0 +1,309 @@
+/*  
+
+Theme Name: Pizza Expo Theme
+
+Theme URL: http://www.emeraldexpositions.com
+
+Author: Mason Grandusky, Web Developer
+
+Client: Pizza Expo
+
+Client URL: http://www.pizzaexpo.com/
+
+Version: 2.0
+
+Description: Custom WordPress theme designed by <a href="http://www.emeraldexpositions.com/">Emerald Expositions</a>. XHTML and CSS valid.
+
+*/
+.table-block {overflow-x: auto; }
+
+.table-block table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+    max-width: 715px;
+
+    width: 100%;
+
+    padding: 8px;
+
+    min-width: 450px;
+
+}
+
+.table-block { clear:both; margin-bottom:25px;}
+
+.table-block { clear:both; margin-bottom:25px;}
+#content .entry .table-block table tr td {width:33%}
+
+.entry iframe[src="http://exhibit.emeraldexpo.com/l/144241/2016-08-29/bvxrk"]{ float: none!important; }
+
+#network-container nav h5 {
+    display: none;
+}
+ 
+#network-container {
+    font: 300 18px/25px 'Source Sans Pro', sans-serif;
+}
+ 
+#network-container nav {
+    background: #111;
+    height: auto;
+    padding: 0px 0px;
+    height: 44px;
+}
+#network-container nav a {
+    font: 600 15px/17px 'Source Sans Pro',sans-serif;
+    color: #888;
+    padding: 12px 11px 10px;
+    text-decoration: none;
+}
+ #network-container nav a.active {
+    color: #fff;
+    text-decoration: none;
+} 
+#network-container nav ul {
+    float: left;
+    padding: 0px 0 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ 
+#network-container nav ul li:first-of-type {
+    border-left: 0px;
+}
+
+
+#network-container nav ul li {
+    float: left;
+    padding: 0px;
+    border-left: 1px solid #272727;
+    list-style: none;
+    height: 44px;
+    padding-top: 10px;
+}
+ 
+@media screen and (max-width:767px) {
+#network-container nav {
+    padding: 0px 0px 0px 0px;
+}             
+ 
+#network-container nav h5 {
+    display: block;
+    margin: 0px 0px;
+    letter-spacing: initial;
+    padding: 0px 11px;
+}
+ 
+#network-container nav h5 a {
+    background: url(/images/arrow-down.png) center right no-repeat;
+    display: block;
+    padding: 15px 0px 12px !important;
+    width: 15px;
+    width: 100%;
+}
+ 
+#network-container nav ul {
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    background: #111;
+    width: 100%;
+}
+#network-container nav ul li {
+    float: none;
+    margin: 0px;
+    background: none;
+    border-top: 1px solid #333;
+    border-left: 0px;
+    padding: 0px;
+}
+ 
+#network-container nav ul.show {
+    display: block;
+    z-index: 100;
+    padding-left: 0px;
+}
+ 
+                }
+
+#content .entry table tr td {
+    padding: 13px;
+    font-weight: 400 !important;
+    width: 50%;
+}
+
+.rsMinW .rsArrowLeft {
+    right: 37px;
+    bottom: 15px;
+}
+.rsMinW .rsArrowRight {
+    right: 7px;
+    bottom: 15px;
+}
+.sponsor{
+float:right; 
+text-align:center;
+}
+@media (max-width: 360px) {
+.sponsor{
+float:left; 
+text-align:center;
+margin-bottom:15px;
+}
+}
+#seo h3 {font-size:14px; }
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type="submit"] {
+padding: 13px 26px;
+font-weight: bold;
+display: inline-block;
+color: #FFF;
+border-radius: 0px;
+margin: 10px 0px;
+background-color: #D71921;
+border:none;
+}
+
+.gform_wrapper .gform_footer input.button:hover, .gform_wrapper .gform_footer input[type="submit"]:hover {
+padding: 13px 26px;
+font-weight: bold;
+display: inline-block;
+color: #FFF;
+border-radius: 0px;
+margin: 10px 0px;
+background-color: #b9151c;
+border:none;
+}
+.question:nth-of-type(1) {
+    border-top: 2px solid #E6E6E6;
+}
+.question {
+    border-bottom: 2px solid #E6E6E6;
+}
+
+#pizzaexpo_234_Top iframe { clear:none;float:none; margin:0px; }
+.ad-space iframe { clear:none;float:none; margin:0px; }
+.video-container iframe { clear:none;float:none; margin:0px; }
+iframe {
+	clear:both;
+	float:right; 
+	margin:10px;
+}
+.alignright {
+float:right;
+}
+.alignleft {
+float:left;
+margin-right:10px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-top:15px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#new-royalslider-1 .rsGCaption {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    color: white;
+    /*background-color: #222222;*/
+   background: rgba(0, 0, 0, .75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border-top: solid #008c44;
+    padding-right: 80px;
+    z-index: 1;
+}
+
+#new-royalslider-1 .rsNavItem.rsBullet span {
+    background: #333;
+}
+
+#new-royalslider-1 .rsNavItem.rsBullet.rsNavSelected span {
+    background: #d71921;
+}
+
+.rsMinW .rsBullet span {
+    display: block;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.rsMinW .rsBullet {
+   width: 20px !important;
+    height: 20px !important;
+    display: inline-block;
+    padding: 0px 15px 0px 0px !important;
+}
+
+.rwd-table tr {
+	border-bottom: 1px solid #DDD;	
+}
+
+@media (max-width: 958px) {
+	 
+	.rwd-table td { 
+		display:inline-block;
+		width:98%;
+	}
+}
+
+.rsMinW .rsBullets {
+    position: absolute;
+    bottom: 20px !important;
+    right: 73px;
+    z-index: 35;
+    padding-top: 4px;
+    height: auto;
+    text-align: center;
+    line-height: 6px;
+    overflow: hidden;
+}
+
+
+#pizzaexpo_300_Top, #pizzaexpo_300_Mid, #pizzaexpo_300_Bottom  { padding:0px; }
+.ad-space {padding:0px !important; }
+
+
+@media (max-width: 330px) {
+#sidebar .ad-space {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+}
+
+#content .entry {
+    border-top: 5px solid #008C44;
+    background-color: #FFF;
+    padding-top: 15px;
+    min-height: 610px;
+}

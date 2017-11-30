@@ -1,0 +1,1178 @@
+
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@font-face {
+ font-family: 'Source Sans Pro', sans-serif;
+ src: url('/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('ttf');
+}
+
+@font-face {
+ font-family: 'Open Sans Condensed', sans-serif;
+ src: url('../fonts/Open_Sans_Condensed/OpenSans-CondBold.ttf') format('ttf');
+}
+
+
+body, select, input, textarea {font-family: 'Source Sans Pro', sans-serif; color:#333;}
+
+/* ===== Initializr Styles ==================================================
+  
+   ========================================================================== */
+
+body {
+    font: 16px/22px 'Source Sans Pro', sans-serif;
+}
+
+
+/* ===================
+    ALL: Container
+   =================== */
+
+	/*.header-container {	background:url(../images/surf/woodBG.jpg) repeat-x; padding-top:25px; padding-bottom:15px;}*/
+	
+	.main aside {background: #fff;}
+	.main section {margin:0 5px;clear:both;}
+	article { padding-bottom:0px;}
+
+/* ==============
+    HEADER
+   ============== */
+   
+	header { background-color:transparent;}
+	    .lt-ie8 header { padding:0 0 20px; }	
+   
+	header h3 {
+	    background: url(../images/surf/surf-logo-mobile.png) no-repeat 0 10px;
+	    height: 105px;
+	    max-width: 280px;
+        float:none;
+		margin:0 auto;
+    }
+    	header h3 a {
+        	display:block;
+	        height:105px;
+    	    width:280px;   
+	    }
+
+	header h4 {
+	    font-size: 1em;
+    	width: 98%;
+	    margin-right: 0px;
+        color:#000;	
+        line-height:1.375em;
+		font-weight:normal;		
+	}
+
+		header h4 b {
+    		font-size: 1.5em;
+			font-weight:bold;
+		}
+
+
+	header h4.date-image {
+    	/*background: url(../images/surf/dates-image-mobile.png)no-repeat;  */
+	    height: 55px;
+	    max-width:270px;
+		margin:0px auto;
+    }	
+	header h4.date-image a {
+	    height: 55px;
+	    width:270px;		
+	}		
+		
+	header h4.date-image span.dates {
+	    text-transform: uppercase;
+	    margin-top: 12px;
+	    display: block;
+	    font: bold 1.25em/1.35em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+	}
+
+	header h4.date-image span.location {
+	    text-transform: uppercase;
+	    display: block;
+	    font: normal 1.1em/1.15em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+	}
+
+#wave {
+    background: transparent url(../images/surf/wave-bg3.png) repeat;
+    height: 14px;
+    max-width: 100%;
+    z-index: 7000;
+    top: 7px;
+    position: relative;
+}
+/* ==============
+    HEADER STYLES
+   ============== */
+
+		section h1 {font:600 1.5em/1.5em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif; color:#003a5c;  padding-bottom:18px}			
+			section h1 a {font-weight:600}	
+		section h2 {font:bold 1.5em 'Source Sans Pro', sans-serif; color:#050505; padding:0 }
+			section h2 a {font-weight:bold}		
+		section h3 {font:bold 1.25em 'Source Sans Pro', sans-serif;}
+		section h4 {font:bold 1.125em 'Source Sans Pro', sans-serif;}
+		section h5 {font:bold 1em 'Source Sans Pro', sans-serif; }	
+		
+		section h1.header, section h2.header {
+			font:600 1.5em/1.125em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif; 
+			color:#003a5c; 
+			margin-bottom: 26px;
+			padding:0;
+			text-transform:uppercase;
+			border-bottom:1px solid #f28b00; 
+		}
+			
+		.home section h1.header {border-bottom: none; margin-bottom:10px;}
+		section h2.header {
+		    font: 600 1.85em/1.355em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+		    margin-top: 10px;
+		    color:#003a5c; 
+			margin-bottom:26px; 
+			padding:0;
+			text-transform:uppercase;
+			border-bottom:1px solid #f28b00; 
+		}
+
+		
+			h1.large {font:600 2.25em/1.05em 'Source Sans Pro', sans-serif; color:#000}	
+		
+			h1.headline {    font: 600 1.75em/1.15em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif; color:#050505;  padding-bottom:12px; text-transform:uppercase}					
+					.lrgFont {font:normal 3em/1em 'Source Sans Pro', sans-serif;}
+					.medFont {font:normal 1.5em 'Source Sans Pro', sans-serif;}
+					.white {color:#fff;}
+		
+		h1.caps {text-transform:uppercase}
+			.no-border {border:0px !important;}
+			
+
+			section.news h2 a {font-weight:bold; color:#000}	
+			section.news h2 a:hover {color:#003a5c}				
+				section.news p {margin-bottom:0px;}
+
+			section > #tabs h2 {font:600 1.875em 'Source Sans Pro', sans-serif; color:#000; padding-bottom:10px;}			
+			section > #tabs p {margin-bottom:10px;}
+				section > #tabs p.title-list {margin-bottom:0px;}			
+				.title {font:bold 1.5em 'Source Sans Pro', sans-serif; color:#050505; padding:0; margin:0px !important;}
+				
+			h2.article-headline  {font:bold 1.5em 'Source Sans Pro', sans-serif; color:#000; padding:0 }
+			h2.article-headline a {font-weight:bold; color:#000;}
+		    h2.article-headline a:hover {color:#003a5c}		
+
+		section h2.sub-header {padding:0  0 15px 0;}					
+		section h2.article-subheader  {font:bold 1.25em 'Source Sans Pro', sans-serif; color:#003a5c; }
+
+							
+		section .show-table h5 {padding:13px 10px; background-color:#003a5c; color:#FFF}
+
+
+		aside h4 {
+    font: 600 1.5em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+    color: #fff;
+    background-color: #003a5c;
+    text-transform: uppercase;
+    padding: 8px 10px;
+			}		
+			
+		aside .rc-content  {background-color:#ebebeb; margin-top:0px;}			
+
+
+/* ==============
+    FOOTER
+   ============== */
+
+   
+.footer-container { color: #333; min-height:400px; padding-bottom:0px;}	
+	.footerwrapper {width:100%; position:absolute;left:0;right:0;}
+	.footer-container footer {  padding:0px; min-height:320px; position:relative; left:0; right:0px;}
+
+		.footer-container footer p, .footer-container footer h3, .footer-container footer h4 {/*padding:0px 10px;*/}
+	       .footer-container p  {color:#333;}	
+		.footer-container h3, .footer-container h4, .footer-container p {
+		 /*font-size:.75em; color:#333; line-height:1.25em; margin:0px 12px 12px 0;*/}
+			 
+	.seo-container {padding-left:5px; padding-right:5px;}			 
+			 
+	.footer-container .copyright p {font-size:0.875em; color:#71868b; line-height:2.5em}
+	.footer-container .copyright p a {color:#fff}
+	.footer-container .copyright p a:hover {color:#003a5c}   
+	.footer-container .copyright p a:hover {color:#003a5c; text-decoration:underline}
+
+	.seo-portion {
+	    max-width: 100%;
+	    color: #fff;
+	}
+
+	.seo-portion p, .seo-portion h3, .seo-portion h4 {font-size:0.875em}
+
+
+/* ==============
+    MOBILE: Social
+   ============== */
+
+	header ul.social {
+		display: block;
+		position:relative;
+		width:235px;
+		margin: 45px auto 0;	
+		float:none;
+	}
+	
+    header ul.social li {
+        margin:0px;    
+        float:left;
+        height:40px;
+		list-style:none;
+		bottom:0px;
+		position:absolute;
+		
+    }
+	
+	header ul.social li { float: left; height: 55px; width: 49px !important;}	
+	header ul.social li.fb {background: transparent url(../images/surf/social-icon.png) no-repeat scroll 0px 0px; width: 49px;}
+	header ul.social li.tw {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -25px 0px; width: 49px; left:25px;}
+	header ul.social li.ig {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -63px 0px; width: 49px; left:63px;}	
+	header ul.social li.li {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -104px 0px; width: 49px; left:104px;}
+	header ul.social li.vi {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -145px 0px; width: 49px; left:145px;}	
+
+	
+	/*header ul.social li.fb:hover {background: transparent url(../images/surf/social-icon.png) no-repeat scroll 0px 0px; width: 25px; }
+	header ul.social li.tw:hover {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -25px 0px; width:38px; }
+	header ul.social li.ig:hover {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -63px 0px; width:41px;}	
+	header ul.social li.li:hover {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -104px 0px; width:41px;}
+	header ul.social li.vi:hover {background: transparent url(../images/surf/social-icon.png) no-repeat scroll -145px 0px; width:39px;}	*/
+
+    header ul.social li a {
+        display:block;
+        height:40px;
+        width:49px;    
+        padding:0px;
+        margin:0px;
+    }            
+    
+    header ul.social li a:hover {
+        background:none;    
+    }
+	
+
+/* ==============
+    LINKS
+   ============== */
+
+ a {color:#003a5c}
+ 
+ 	section a {
+		color:#003a5c;font-size:1em;font-weight:normal;
+	}
+
+	section a:hover {color:#f28b00;text-decoration:none;}
+	
+	section h1 a, section h2 a, section h3 a {color:#003a5c; }	
+	
+	.button {display:block; clear:both}
+	
+	.submit-no-color {
+		border: 3px solid #003a5c;
+	    color: #003a5c;
+	    padding: 3px 40px;  
+
+	}
+	.submit-no-color:hover {background-color:#003a5c;}	
+	
+	.blue {color:#003a5c}
+	.black {color:#000}
+	
+	.orange-bdr {
+	  border:2px solid #f28b00;
+   	  color: #f28b00;
+	  padding:8px 25px;
+	  font-weight:bold;
+	  display:inline-block;
+	}	
+	.btn-block {
+	  display:block;
+	  width:98%;
+	  text-align:center;
+	  padding:8px 0;
+	  }
+	
+	.orange-loadmore {
+	  border:3px solid #f28b00;
+   	  color: #f28b00;
+	  padding:8px 30px;
+	  display:inline-block;
+	  font-weight:bold;
+	}	
+	
+	.yellow-btn {background-color:#f1f1f1 !important; border:1px solid #a5a5a5; font-size: 1.125em !important; padding:0 10px}
+	
+	.font-large	{font-size:1.5em; }
+	.orange-bdr:hover, 	.orange-loadmore:hover, .btn-block:hover {background-color:#f28b00; color:#FFF}
+	   
+     a.readmore { color: #003a5c;}
+	 .home a.readmore {color:#000;}
+ 	 a.more {font:normal 1em 'Source Sans Pro', sans-serif; color: #003a5c;}
+	 a.more:hover,  a.fullstory:hover, a.readmore:hover {color:#003a5c; text-decoration:none !important }
+
+	 a.more span:hover,  a.fullstory span:hover, a.readmore span:hover {border-bottom: 1px solid #003a5c; padding-bottom: 0px;}		
+	 
+	
+	.pdf-icon {background:url(../images/pdf-icon.png) 0 0 no-repeat; padding-left:20px;}
+	a.pdf-icon span {color:#333; font-weight:normal}
+	
+	.phone-icon {background:url(../images/surf/phone-icon.jpg) 0 2px no-repeat; padding-left:20px; color:#000; font-weight:normal !important; line-height:1.2em !important}
+	a.phone-icon span {color:#333; font-weight:normal}	
+	
+	.cellphone-icon {background:url(../images/surf/cellphone-icon.jpg) 0 2px no-repeat; padding-left:20px; color:#000; font-weight:normal !important; line-height:1.2em !important}
+	a.cellphone-icon span {color:#333; font-weight:normal}		
+
+	.contact-email-icon {background:url(../images/surf/contact-email-icon.jpg) 0 2px no-repeat; padding-left:20px;font-weight:normal !important; color:#003a5c; line-height:1.2em !important}
+	a.phone-icon span {color:#333; font-weight:normal}	
+	
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+	/****** Search bar *********/   
+	#search {float:left; margin-top:18px;}
+	#search form.show {border:10px solid #000; background-color:#FFF; width:95%;}	
+	
+	#search input#s	{border:none; float:none; background-color:#FFF; padding: 7px 10px;}
+	nav#main #search h5 a.active {background-color:#000; height:42px;}	
+	#search input#searchsubmit	{
+		background: transparent url(../images/search-glass.png) 100% 0px no-repeat #fff;
+		border: 1px solid #fff;
+		border-top: 0;
+		border-bottom: 0;
+		position: absolute;
+		right: 7px;
+		top: 15px;		
+		}
+		
+      #search input#searchsubmit {
+        background:transparent url(../images/surf/search-glass.png) 100% 40% no-repeat;
+ 		width:20px;
+		border:none;
+		position:absolute;
+		right:7px;
+		top:6px
+    }		
+		
+
+/* ==============
+    MOBILE: Main
+   ============== */
+	section p, aside p {
+		color: #050505;
+	}
+
+	.inner section div.feature {padding: 0 0 20px;}	
+	
+/* ==============
+    SideBar
+   ============== */
+ 
+	aside h3 {font:bold 1.5em 'Source Sans Pro', sans-serif;color:#000}
+
+
+/* ==============
+    Footer
+   ============== */
+
+ 	.wave-bg {display:none;}
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+	/*** Ads *****/
+	.btm-ad {border:0px; text-align:center;}	
+
+
+	/****** Styles **********/
+	hr.divider {
+    	height: 1px;
+    	border-top: 1px solid #f28b00;
+		margin:1.5em 0;
+	}	
+	hr.dotted {border-top:1px dotted #ccc; }
+	
+	hr.site-color {border-top:1px solid #003a5c; margin:1.5em 0;}
+	
+	.padtop20 {padding-top:20px;}
+	.padbottom20 {padding-bottom:20px;}	
+	.pad20 {padding-top:20px; padding-bottom:20px;}	
+	
+	.displayFlex-block {display: block;}
+	.image-content img {max-width:100%;border:1px solid #333;}
+	
+	.centertxt {padding:0 10px;}
+	ul li.one-third .centertxt p { margin:0px; vertical-align:middle; display:inline-block}
+	
+	/************** blockquote ************/
+	
+	blockquote {
+	  background: #e3ecee;
+	  margin:0;
+	  padding: 20px 25px 20px 35px;
+	  quotes: "\201C""\201D""\2018""\2019";
+	  font:normal 1.5em/1.25em "Source Sans Pro", sans-serif;
+	}
+	
+	blockquote:before {
+	  color: #f28b00;
+	  content: open-quote;
+	  margin-right: 0em;
+	  vertical-align: -0.40em;
+	  font:normal 4em/0em 'Source Sans Pro', sans-serif;
+	}
+
+	blockquote:after {
+	  color: #f28b00;
+	  content: close-quote;
+	  margin-right: 0.1em;
+	  vertical-align: -0.5em;
+	  font:normal 4em/0em 'Source Sans Pro', sans-serif;	  
+	}
+
+	blockquote p {
+	  display: inline;
+	}
+
+	.quote-block {background: #e3ecee; padding-bottom:20px; color:#000}
+	.quote-block p {margin :0px; font:bold 1.5em "Source Sans Pro",sans-serif; margin-left:3em}
+	.quote-block blockquote {padding-bottom:0px;}
+
+	
+	
+	
+	/************* Load More *************/
+	.lm-block {
+    	display: block;
+	    text-align: center;
+    	padding-top: 10px;
+	}
+	.learnmorebtn {
+    	padding: 12px 0px;
+	    cursor: pointer;
+ /*   	display: block;*/
+	    text-align: center;
+    	margin: 0px auto;
+		width:220px;
+		font:bold 1em 'Source Sans Pro', sans-serif;
+	}
+	input#loadMore {height:auto;}	
+	
+	.blue-btn {
+    	padding: 6px 30px;
+	    background-color: transparent;
+		border: 2px solid #003a5c;
+	    color: #003a5c;
+    	font: normal 1em 'Source Sans Pro', sans-serif;
+	    text-align: center;
+	}
+	.blue-btn:hover {background-color:#003a5c; color:#fff}	
+	
+	
+	/*********** Columns *************/
+	.bg-block {text-align:center; padding:10px 0}
+	.bg-block ul li {background-color:#003a5c; padding: 16px 0 10px;}
+	
+	.one-fourth {width: 48%; margin-left:1.5%;}
+	.no-marginList .one-fourth  {vertical-align:bottom; text-align:center; padding-bottom:50px;line-height:1em; width:100%; }
+		.home .one-fourth a {display:block;} 
+			.sponsors .no-marginList .one-fourth {vertical-align:middle; }	
+			.contact-us .no-marginList .one-fourth	{vertical-align:top; text-align:left; width: 48%; padding-bottom:10px;}		
+		
+		.no-marginList .one-fourth p {margin-bottom:15px;}
+		.contact-us .no-marginList .one-fourth p { margin-bottom:0px;}
+		.contact-us .no-marginList .one-fourth p:nth-of-type(2n)	{width:93%;}
+		.contact-us .no-marginList .one-fourth p:nth-of-type(2n) a	{color:#050505}	
+		.contact-us .no-marginList .one-fourth p:nth-of-type(2n) a:hover { color: #003a5c;}
+		.contact-us .no-marginList .one-fourth a:hover {color:#003a5c;}
+		.no-marginList .one-fourth a {font-weight:bold;}	
+	
+	.one-fourth a {position: relative; line-height:1em}
+		.home .one-fourth a {display:block;}
+	
+	.one-fourth:nth-of-type(1), .one-fourth:nth-of-type(4n+1), .one-fourth:nth-of-type(2n+1) {margin-left:0px;}			
+	.one-sixth p, .show-categories .one-sixth li {width: 46%; margin-left:1.5%; vertical-align:text-bottom; text-align:center}
+			 .one-sixth p span, .show-categories .one-sixth div p  {display:block;}
+	
+
+	.home .one-fourth img {border:1px solid #000;}
+	.hp-featured .one-fourth p {position:relative; display:inline-block; max-width:100%; line-height:1em; }
+	 span.text-content {
+		  background: rgba(0,0,0,0.5);
+		  color: white;
+		  cursor: pointer;
+		  display: block;
+		  height: 81%;
+		  left: 0;
+		  position: absolute;
+		  top: 0%;
+		  width: 97.5%;
+		  padding:12% 1% 1px 3%;
+		  opacity:0;
+		  vertical-align:middle;
+		  -webkit-transition: opacity 500ms;
+		  -moz-transition: opacity 500ms;
+		  -o-transition: opacity 500ms;
+		  transition: opacity 500ms;		  
+
+		  overflow:hidden;
+	}	
+	
+	span.text-content span {
+ 		 display: table-cell;
+		  text-align: left;
+		  vertical-align: middle;
+		  display:block;
+		  padding-left:5%;
+		  
+
+	}
+	span.orange-title {font:bold 20px 'Open Sans', sans-serif; color:#f28b00}
+	
+	p a:hover span.text-content {opacity: 1; background-color:#000}
+	.padLeft10 {padding-left:10px;}
+	p.shaded-box {background-color:#003a5c; color:#FFF; font:bold 1em 'Source Sans Pro', sans-serif; padding:15px 10px}
+	
+	/********** Media Image on right **************/
+	.media-right {
+    	height: auto;
+	    overflow: hidden;
+    	padding: 0 0 25px;
+	}	
+		.media-right p	{margin-bottom:0px;}
+		.media-right .image-box {
+    		float: none;
+		    width: 100%;
+    		margin: 0px;	
+		}
+		.media-right .div-left {
+    		float: none;
+		    width: auto;
+    		overflow: hidden;
+			padding-bottom:5px;
+		}	
+	/************** Why Exhibit ********************/
+	div.video { padding:20px 0}
+	
+	
+	
+	/*************** Article page *****************/
+	p.article-date {padding:25px 0 0; font-style:italic}
+	.press-article .main section img {padding-bottom:20px;}	
+	
+	
+	/************** Contact Us ********************/
+	a.contact-email-icon {word-wrap: break-word;}
+	
+	
+	/**************** Sign up Form ****************/
+	.embed form	{background-color:#FFF !important}
+	form.wufoo {background-color:#FFF}
+
+	.form-box ul {
+    	padding-left: 0px;
+	    list-style-type: none;
+    	padding-bottom: 20px;
+	}	
+	.form-box ul li {clear:both; width:100%; display:block; font-size:0.95em}
+	.form-box ul li div {
+    	display: inline-block;
+	    width: 47%;
+    	vertical-align: top;
+	    margin-right: 7px;
+	}
+	.form-box ul li select { width:96%;}
+	.form-box ul.form-cat li {display:block; width:98%; word-break: break-all; vertical-align:top;}
+	.form-box div ul.form-cat li {display:block; width:98%;}
+	.form-box form label {
+    	text-align: left;
+	    width: 100%;
+	    margin-right: 10px;
+    	color: #505050;
+	    padding: 15px 0px 0px;
+	    display: block;
+		font-weight:600;
+		margin-bottom:5px;
+	}
+	label span {color: #cc0000; margin-left:3px;}
+	
+	.form-box form input.form_textbox, .sm_textbox, .form-box form textarea.form_textbox {
+    	width: 90%;
+	    background: #fff none repeat scroll 0% 0%;
+    	border: 1px solid #c3c3c3;
+		border-style:inset;
+    	padding: 2px;
+	   /* box-shadow: 0px 8px 3px -8px rgba(0, 0, 0, 0.15) inset;*/
+    	color: #000;
+	}	
+
+	.form-box form textarea {min-height:140px;}
+
+		.form-box ul.refCode li {display:inline-block; width:42px;}
+		.form-box form .refCode input.form_textbox {width:24px; display:inline-block}	
+
+	.form-box form input#other {margin-left:24px;}
+	.form-box form input[type="checkbox"], .form-box form input[type="radio"]  {
+    	vertical-align: middle;	margin-right:5px;}
+	
+	.form-box .note {font-size:.75em; margin:3px 5px 10px ; display:block;}	
+	.form-submit {font-size:1.25em}
+	
+	
+	/************** About the Show ***************/
+	
+	.video-container {margin-bottom:10px;}
+	.center-block {text-align:center}
+	.centertxt	p span {display:block;}
+		.awards .one-third {padding-bottom:10px;} 	
+		.awards ul li.one-third {width:48%; display:inline-block} 		
+		.awards ul li.one-third p {padding-right:5px;padding-top:5px;}
+		.awards ul li.one-third div        {text-align:center; position:relative}  
+		.awards ul li.one-third div p {display:inline-block; vertical-align:bottom; padding:0px;}
+		.awards ul li.one-third div p:nth-of-type(1) {text-align:left; vertical-align:bottom; padding:0px 10px; height:150px;} 
+		.awards ul li.one-third p img { 			
+		       position:absolute;bottom:0px; max-width:100%; 			
+	           left:50%; transform:translateX(-50%); 			
+	           display:block;} 
+	
+		.endorsements {padding-top:10px;}
+		.endorsements .no-marginList .one-fourth {width:48%;}		
+		
+		
+	.show-categories {position:relative; width:100%;}
+	.show-categories ul {margin-left:0px;}	
+	.show-categories .bg-block {padding-bottom:0px; text-align:left;}
+		.bg-block ul li.one-third {width:99%; margin-bottom:10px; margin-left:0}	
+		.bg-block ul li.one-third:first-child {margin-left:0}	
+		
+			
+	.show-categories .one-sixth li {color: #f28b00; background-color:transparent; display:inline-block }	
+	.show-categories .one-sixth li a {width:100%; display:block; }
+	.show-categories .one-sixth li span {display:block; text-align:center;  font-family: 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;}		
+	.one-sixth div.text-content1	{display:none;}
+	.one-sixth li span {color:#244c5a;}	
+	.one-sixth li span:hover {color:#f28b00;}		
+	.show-categories {background-color:#ebebeb; padding:0px 0 10px; margin-bottom:20px}
+	#dest {margin: 0 20px 20px; background-color:#FFF; padding:15px; min-height:108px; position:relative; }
+	
+	.default-icon-first a {  background-position: 50% 100%; }	
+	.one-sixth li.default-icon-first span, .one-sixth li.default-icon span {color:#f28b00;}
+	
+	.surf-icon	{background: url(../images/surf/surf-icon.png) no-repeat 50% 0; height:98px;}
+	.surf-icon:hover, li.default-icon:hover .surf-icon  { background-position: 50% 100%; }	
+
+	.skate-icon	{background: url(../images/surf/skate-icon.png) no-repeat 50% 0; height:98px;}
+	.skate-icon:hover, li.default-icon:hover .skate-icon  {  background-position: 50% 100%; }	
+
+	.sup-icon	{background: url(../images/surf/sup-icon.png) no-repeat 50% 0; height:98px;}
+	.sup-icon:hover, li.default-icon:hover .sup-icon { background-position: 50% 100%;}	
+
+	.swim-icon	{background: url(../images/surf/swim-icon.png) no-repeat 50% 0; height:98px;}
+	.swim-icon:hover, li.default-icon:hover .swim-icon {  background-position: 50% 100%; }	
+
+	.resort-icon	{background: url(../images/surf/resort-icon.png) no-repeat 50% 0; height:98px;}
+	.resort-icon:hover, li.default-icon:hover .resort-icon { background-position: 50% 100%; }	
+
+	.coastalgift-icon	{background: url(../images/surf/coastalgift-icon.png) no-repeat 50% 0; height:98px;}
+	.coastalgift-icon:hover, li.default-icon:hover .coastalgift-icon {  background-position: 50% 100%;}	
+
+	.souvenir-icon	{background: url(../images/surf/souvenir-icon.png) no-repeat 50% 0; height:98px;}
+	.souvenir-icon:hover, li.default-icon:hover .souvenir-icon {  background-position: 50% 100%; }	
+
+	.boutique-icon	{background: url(../images/surf/boutique-icon.png) no-repeat 50% 0; height:98px;}
+	.boutique-icon:hover, li.default-icon:hover .boutique-icon  {  background-position: 50% 100%; }	
+
+	.footwear-icon	{background: url(../images/surf/footwear-icon.png) no-repeat 50% 0; height:98px;}
+	.footwear-icon:hover, li.default-icon:hover .footwear-icon  { background-position: 50% 100%; }	
+
+	.kayak-icon	{background: url(../images/surf/kayak-icon.png) no-repeat 50% 0; height:98px;}
+	.kayak-icon:hover, li.default-icon:hover .kayak-icon  { background-position: 50% 100%; }	
+	
+	.performance-icon	{background: url(../images/surf/performance-icon.png) no-repeat 50% 0; height:98px;}
+	.performance-icon:hover, li.default-icon:hover .performance-icon { background-position: 50% 100%; }	
+
+	.wake-icon	{background: url(../images/surf/wake-icon.png) no-repeat 50% 0; height:98px;}
+	.wake-icon:hover, li.default-icon:hover .wake-icon { background-position: 50% 100%;}	
+
+	.wind-icon	{background: url(../images/surf/wind-icon.png) no-repeat 50% 0; height:98px;}
+	.wind-icon:hover, li.default-icon:hover .wind-icon {  background-position: 50% 100%; }	
+	
+	/*********************** Search Results **************************/
+	.search-nav	{border-top:1px solid #333; border-bottom:1px solid #333;}
+		.search-nav	.navigation {margin: 0 auto; text-align:center}
+		.search-nav a {color: #003a5c;}		
+		.search-nav a.disabled {color: #333;}		
+		.search-nav li	{color:#333;}	
+	.num-results span {color:#f28b00}
+
+	section .search-items p {margin-bottom:0px;}	
+	.search-items a {color:#000}	
+	.search-items a.readmore {color:#f28b00}		
+		.search-items a.readmore:hover, .search-items a:hover, .sort span a:hover, .sort span.active a:hover  {color: #f28b00;}	
+		.search-items li span:hover {border-bottom:0; }
+	.search-items li span {color:#f28b00}
+	.sort {float:right}
+	.sort span a { color:#43a8c7}
+	.sort span.active a { color:#003a5c}
+	
+	.search-nav a:hover {color: #f28b00;}
+
+	
+	/************************* Tabs ***********************************/
+	
+	
+#tabs {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+	#tabs h6 {
+    	display: block;
+	    width: 100%;
+    	margin: 15px 0 0 0;
+		border-bottom:5px solid #000;	
+	}
+		#tabs h6 a {
+    		background: #003a5c url("../images/surf/caret.png") no-repeat scroll 98% center;
+	    	display: block;
+	    	color: #fff;
+		    padding: 10px;
+    		font:400 1.5em "Tungsten", sans-serif;
+			text-transform:uppercase;
+		}
+		#tabs ul.addopps:first-of-type {
+		    position: absolute;
+	    	top: 44px;
+		    background: #003a5c;
+    		width: 99.5%;
+		    color: #fff;
+    		z-index: 2000;
+		    margin-left: 0px;
+		}
+			#tabs ul.addopps li:first-of-type {clear: both;}
+			#tabs ul.addopps:nth-of-type(1) li {
+			    float: none;
+			    margin-right: -3px;
+			    background-color: #003a5c;
+			}
+			#tabs ul.addopps li {
+			    float: none;
+			    display: none;
+			}
+			#tabs ul.show li {
+			    display: block;
+			    z-index: 5;
+			}
+				#tabs ul.addopps li a {outline-style: none;}
+				#tabs ul.addopps li a, #tabs ul.addopps li a.active {
+				    display: block;
+				    padding: 10px;
+				    margin-left: 0px;
+				    color: #fff;
+				    font-weight: bold;
+					text-transform:uppercase;
+					font:500 1.5em "Tungsten A", "Tungsten B", sans-serif;
+				}
+				#tabs ul.addopps li a:hover, #tabs ul li.ui-tabs-active a {
+				    background: #000000 none repeat scroll 0% 0%;
+				    text-decoration: none;
+				}
+
+		.section-row {
+		    border-top: 1px solid #003a5c;
+		    padding: 20px 0;
+			display:block;
+		}
+
+		#beforetheshow > .section-row:first-child,
+		#attheshow > .section-row:first-child,
+		#aftertheshow > .section-row:first-child,
+		#nocost    {border-top:0px;}
+
+	.copy-text {display:block; margin-right:15px;}
+		section .copy-text p {margin-bottom:0px; margin-top:20px;}
+	    section .copy-text h2 p {margin-top:0px;}		
+
+
+	.tab-right {display:block; width:100%; max-width:220px;}
+		.tab-right .price {font:bolder 1.875em "Source Sans Pro", san-serif; color:#f28b00; }
+		.copy-text .price {font-weight:bold;color:#f28b00;}
+		section .displayInline        p {margin:0px; } 	
+	
+/*********************** FAQ *******************************/
+.faq-section {margin:30px 0 !important;}
+
+	.question {border-top:2px solid #fff;}
+	.question:nth-of-type(1) {border-top: 1px solid #eaeaea;}
+
+ 	 section .question p.info-box-link {margin:0px;}
+		.question p.info-box-link a {
+    		color: #000000;
+		    padding: 13px 12px;
+    		display: block;
+	    	font-weight: bold;
+			cursor:pointer;
+		}	
+        .question:nth-of-type(odd) {background-color:#e3ecee;} 		
+		
+		.info {display: none; background-color:#FFF}		
+		section .info p {background-color:#e3ecee; margin:0px; padding:12px 0 12px 12px;}
+			
+		.question p.info-box-link a.open, .question p.info-box-link a:hover {background-color: #003a5c; color:#fff}	
+	
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+	
+
+    header h3 {float:none;}	   
+	#search form.show {width:97%;}	
+	 
+ /* ====================
+    SEARCH
+   ==================== */
+
+   nav#main #search h5 a {border-left:0;}		 
+
+
+	/******* Columns ***********/
+    .hp-featured .one-fourth p {overflow:hidden; }    	
+	span.text-content {top:24%; width:96.5%; height:100%; padding:15px 1% 15px 3%;  display: inline-table;}	
+	p a:hover span.text-content {opacity: 1; background: rgba(0,0,0,0.5);}
+		.no-marginList .one-fourth	{width:48%;}
+
+
+	.form-box ul.form-cat li {display:inline-block; width:48%;}
+	.form-box form input.form_textbox, .sm_textbox {width:93%;}	
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+}
+
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+   .main section {margin-right:20px; margin-left:0px;clear:both;}
+   
+   .main section.news {
+	    margin-top: 40px;
+	}
+
+		.main section > section {margin:0px;}    
+   .header-container { 
+	   	padding-top: 31px;
+	    padding-bottom: 24px;
+	}	
+	header h3 {
+    	background: url(../images/surf/surf-logo-tablet.png) no-repeat;    
+	    height:63px;
+	    max-width:185px;
+		margin-right:1.5%;
+		float:left;
+    }	
+	header h3 a {
+		display:block;
+	    height:63px;
+	    width:185px;		
+		}	
+	header h4.date-image {
+    	/*background: url(../images/surf/dates-image-tablet.png)no-repeat; */   
+	    height:70px;
+	    max-width:270px;
+		margin:0px;
+		border-left: 2px solid #000;
+    	padding: 0px 14px;
+    }	
+	header h4.date-image a {
+	    height:80px;
+	    width:338px;		
+		}		
+	header h4.date-image span.dates {
+		text-transform: uppercase;
+	    margin-top: 12px;
+	    display: block;
+	    font: bold 1.25em/1.15em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+	}
+
+	header h4.date-image span.location {
+	    text-transform: uppercase;
+    	display: block;
+    	font: normal 1.1em/1.15em 'Tungsten 4r', 'Tungsten A', 'Tungsten B', sans-serif;
+	}
+
+	header h4 b {font-size:1.5em;}	
+    header h4 { font-size:1em; float:left; }   	
+	
+	header ul.social {
+			/*height:80px; 
+			display:inline-block;
+			float:right;*/
+			position:absolute;
+			bottom:0px;
+			right:0px;}	
+
+	header ul.social li {
+	    float: left;
+	    height: 40px;
+	    width: 49px !important;
+	}	
+	
+	/***** Search bar ***/
+	nav#main #search h5	{display:none;}
+	 #search {width:298px; right:0px; float:right}	
+	 
+	#search form {
+    	display: block;
+	    position: relative;
+    	padding: 0px;
+		top:0px;
+		border:0px;
+	}	 		
+	#search form.show	{top: 0px; border:none;}
+	
+      #search input#searchsubmit {
+        background:transparent url(../images/surf/search-glass.png) 100% 40% no-repeat #F3F3F3;
+ 		width:20px;
+		border:none;
+		position:absolute;
+		right:7px;
+		top:6px
+    }	
+	
+	#search input#s {
+    	border: none;
+	    float: right;
+    	padding: 6px 25px 6px 10px;
+	    width: 88%;
+	}	
+	
+	span.text-content {top:28%; }	
+	.one-sixth p, .show-categories .one-sixth li {width:30%}	
+    .one-sixth p:nth-of-type(3n+1), .show-categories .one-sixth li:nth-of-type(3n+1) {margin-left:0px;}		
+	    .home .sponsors p { margin-left:2% !important;
+			width: auto;
+			max-width: 125px;
+	    } 	
+        .home .sponsors p:first-of-type {margin-left:0px !important;}
+	
+	/********** Media Image on right ************/
+	.media-right .image-box {
+ 	   width: 30%;
+    	float: right;
+	    margin-left: 20px;
+	}	
+	
+	/************* display Text / Image flex *************/
+	.displayFlex-block {display: flex;}	
+	.displayFlex-block div:nth-of-type(1) {margin-right:2%}
+	
+    .displayInline div {display:inline-block; vertical-align:top;} 	
+	.displayInline div:nth-of-type(1) {margin-right:2%}
+	.displayInline .image-content { vertical-align:top;}
+	.displayInline div:nth-of-type(2) {width:43%; margin-right:0px;} 
+	
+	/*************** About the show *********************/	
+	ul li.one-third p img {}	
+	.bg-block ul li.one-third {width:31.8%;}
+	.lrgFont { font-size: 2em}	
+	.medFont {font-size:1.125em}	
+		.bg-block ul li.one-third {margin-left:1.5%}	
+		.bg-block ul li.one-third:first-child {margin-left:0}		
+
+
+		
+}
+ 
+@media screen and (min-width: 958px) {
+	
+	 /*************** homepage ********************/ 
+	.hp-featured .one-fourth p img {max-width:99%;} 
+	
+    .home .sponsors p { margin-left:3% !important;
+width: auto;
+    max-width: 125px;
+    }
+	.home .sponsors p:first-of-type {margin-left:0px !important;}	
+	
+	/********** Media Image on right ************/
+	.media-right .image-box { width: 24%;	}
+    .displayInline div:nth-of-type(2) {width:58%;} 
+
+	/*************** About the show *********************/
+	.lrgFont { font-size: 3em}	
+	.medFont {font-size:1.5em; margin-bottom:10px;}
+	.awards ul li.one-third {width:31.8%;}			
+
+	.form-box div ul.form-cat li {display:inline-block; width:48%;}
+    .awards ul li.one-third div p:nth-of-type(1) {height:200px;} 	
+	
+    .show-categories .one-sixth li {display:inline-block;} 	
+	
+	/****************** tabs **************************/
+	#tabs h6 {display: none;} 		
+	
+	#tabs ul.addopps {
+    	border: none;
+	    list-style: none outside none;
+    	margin: 0px;
+	    padding: 0px;
+	}	
+		#tabs ul.addopps:first-of-type {
+    		position: relative;
+	    	top: 0px;
+			width:100%;
+			border-bottom:5px solid #000;		
+		}	
+		#tabs ul.addopps li {
+		    display: inline-block;
+    		margin-right: -1px;
+		    text-indent: 0em;
+    		padding: 0px;
+		}	
+		#tabs ul.addopps:nth-of-type(1) li {}	
+		#tabs ul.addopps li a {
+		    padding: 8px 18px 8px;
+    		margin: 0px;
+		    border: none;
+			width: auto;
+		}	
+		#tabs ul.addopps li a.active { width: auto;}	
+		#tabs ul.addopps li.ui-tabs-active a, #tabs ul.addopps li a:hover {	}
+	
+	.section-row {display:flex;}	
+	.copy-text {}
+	.tab-right {display:inline-block; width:36%; flex: 1 0 auto}	
+   
+}
+
+@media only screen and (min-width: 1000px) {
+
+	/****** Coulumns **********/	
+
+	 
+
+		
+}
+
+
+@media only screen and (min-width: 1237px)  {
+
+/* ===============
+    Maximal Width
+   =============== */
+   
+   
+	header h3 {
+    	background: url(../images/surf/surf-logo.png) no-repeat 0px 10px;    
+	    height: 116px;
+    	max-width: 313px;
+    }	
+	
+	header h3 a {
+	    height:116px;
+	    width:313px;		
+	}	
+	header h4.date-image { 
+    border-left: 4px solid #000;
+    padding: 0px 14px;
+	    height: 125px;
+	    max-width:534px;
+    }	
+	header h4.date-image a {
+	    height:125;
+	    width:534px;		
+		}		   
+   
+	header ul.social {
+		/*height:125px;*/
+	}   
+   
+   	 #wave {
+	    background: transparent url(../images/surf/wave-bg3.png) repeat;
+		height: 14px;
+	    max-width: 100%;
+	    z-index: 7000;
+	    top: 7px;
+	    position: relative;
+	}
+
+	.wave-bg {display:block;}	   
+
+	.seo-portion {
+	    max-width: 100%;
+	    color: #fff;
+	}	
+	.btm-ad	{text-align:left;}
+	
+	/******* columns *********/
+	.one-fourth,.no-marginList .one-fourth, 
+		.contact-us .no-marginList .one-fourth,
+  	    .endorsements .no-marginList .one-fourth {width:23.455%}
+
+    .one-fourth:nth-of-type(2n+1) {margin-left:1.5%;}
+	.one-fourth:nth-of-type(1), .one-fourth:nth-of-type(4n+1) {margin-left:0;}		
+	
+	.one-sixth p, .show-categories .one-sixth li  {width:21%; max-width:140px;}
+		
+	.home .one-sixth p{ width:auto; max-width:125px;} 
+	span.text-content {top:23%; width:96.5%}
+
+
+	/******************** Inner Section ******************/
+	.inner .main section {
+    	margin: 0px auto 20px;
+	    max-width: 620px;
+    	display: block;
+	}	
+	
+	
+	/************* display Text / Image flex *************/
+
+	
+}
+
+
+@media only screen and (min-width: 1300px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+	span.text-content {top:28%;}   
+	.seo-portion {
+    max-width: 100%;
+        color: #fff;
+}	
+	a.contact-email-icon {word-wrap: normal;}	
+}
+
+
+@media only screen and (min-width: 1600px) {
+	.seo-portion {
+	    max-width: 100%;
+	    color: #fff;
+	}
+}

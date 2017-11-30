@@ -1,0 +1,546 @@
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 98%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+  
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+  margin-bottom:25px;
+  padding:0 1% 0 1%;}
+  
+.full-width {
+	float:left;
+	box-sizing: border-box; 
+	margin-top:10px;	
+	width: 100%;
+	}  
+.tenth-width {
+	float:left;
+	box-sizing: border-box; 
+	margin-top:10px;	
+    width: calc(100%/12 * 12);
+	padding-left:1%
+	}
+  
+header .column,
+header .columns {margin-bottom:0px; padding-right:0px;}
+
+  .fluid-width {
+	  max-width: 1260px;
+  }
+  #sidebar {width:300px; margin:0 auto;}
+  #search {/*max-width:300px;*/}
+
+  .inner-block .one.column,
+  .inner-block .one.columns    { width: calc(100%/12 * 12); }
+  .inner-block .two.columns    { width: calc(100%/12 * 12); }
+  .inner-block .three.columns  { width: calc(100%/12 * 6); }
+  
+	  .inner-block three.columns.mob-full-width {width: calc(100%/12 * 12);}
+  
+  .inner-block .four.columns   { width: calc(100%/12 * 12); }  
+  .inner-block .five.columns   { width: calc(100%/12 * 5); }
+  .inner-block .six.columns    { width: calc(100%/12 * 12); }
+  .inner-block .seven.columns  { width: calc(100%/12 * 12); }
+  .inner-block .eight.columns  { width: calc(100%/12 * 12); }
+  .inner-block .nine.columns   { width: calc(100%/12 * 12); }
+  .inner-block .ten.columns    { width: calc(100%/12 * 12); }
+  .inner-block .eleven.columns { width: calc(100%/12 * 12); }
+  .inner-block .twelve.columns { width: calc(100%/12 * 12); }
+
+
+  footer .three.columns  { width: calc(100%/16 * 8); }
+  footer .five.columns   { width: calc(100%/16 * 16); }
+  footer .copyright   { width: calc(100%/16 * 16) !important; padding-left:0px;}
+
+
+
+
+/****************** Flex Styles *************************/
+
+.flex-parent {display: -webkit-flex; display:flex;  flex-flow: row wrap; justify-content: space-around; align-items: flex-end; flex-direction: row;}
+
+	.flex-column {flex-direction: column;}
+	.alignStart {align-items: flex-start;}
+	.alignCenter {align-items: center;}
+	
+	.start {justify-content: flex-start;}
+	.end {justify-content: flex-end;}	
+	.center {justify-content: center;}
+	.stretch {justify-content: stretch;}
+	.between {justify-content: space-between;}
+	.around {justify-content: space-around;}
+
+/*.flex-parent p {margin: auto; max-width:45%; margin: 0 2% 20px 0; }*/
+
+@media (max-width: 957px) {
+	
+	.inner-block .three.columns.mob-full-width {
+		width: 100% !important;		
+	}
+}
+
+
+/* For devices larger than 400px */
+@media (min-width: 480px) {
+	.container {
+	  width: 97.5%;
+	}	
+	.inner-block .four.columns {
+    	width: calc(100%/12 * 6);
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 998px) {
+	
+	}
+	
+/* For devices larger than 768px */
+@media (min-width: 768px) {
+
+  .columns, .column {
+    padding:0 20px 0 0; 
+  }
+  .column:first-child,
+  .columns:first-child,
+  header .columns:first-of-type {
+	}
+	
+  footer .columns:last-child {padding-right:0px;}	
+	
+  .one.column,
+  .one.columns                    { width: calc(100%/16 * 1); }
+  .two.columns                    { width: calc(100%/16 * 2); }
+  .three.columns                  { width: calc(100%/16 * 3); }
+  .four.columns                   { width: calc(100%/16 * 4); }
+  .five.columns                   { width: calc(100%/16 * 5); }
+  .six.columns                    { width: calc(100%/16 * 6); }
+  .seven.columns                  { width: calc(100%/16 * 7); }
+  .eight.columns                  { width: calc(100%/16 * 8); }
+  .nine.columns                   { width: calc(100%/16 * 9); }
+  .ten.columns                    { width: calc(100%/16 * 10);}
+  .eleven.columns                 { width: calc(100%/16 * 11);}
+  .twelve.columns                 { width: calc(100%/16 * 12);}
+  .thirteen.columns               { width: calc(100%/16 * 13);}
+  .fourteen.columns               { width: calc(100%/16 * 14);}
+  .fifteen.columns                { width: calc(100%/16 * 15);}
+  .sixteen.columns                { width: calc(100%/16 * 16);}  
+	
+		
+  .inner-block .four.columns {width: calc(100%/12 * 6);}	
+
+	.fluid-width {
+		float: left;
+		width: 100%;
+		margin-right: -300px; /* The size of the fixed block. */
+	}
+	.tenth-width {padding-left:0;}
+	
+	
+	.inner-block {
+		margin-right: 300px; /* The size of the fixed block. */
+	}	
+	#sidebar, #search {float:left;}	
+	
+  footer .three.columns  { width: calc(100%/12 * 4); }
+  footer .three.columns:nth-of-type(2)  { width: calc(100%/12 * 3); }  
+  footer .five.columns   { width: calc(100%/12 * 4); }
+
+
+
+}
+
+
+@media only screen and (min-width: 1000px)  {
+  
+
+  .one-half.column, .one-fourth.column, .three-fourth.column  { width: 100%; }
+  .inner-block .one.column,
+  .inner-block .one.columns                    { width: calc(100%/12 * 1); }
+  .inner-block .two.columns                    { width: calc(100%/12 * 2); }
+  .inner-block .three.columns                  { width: calc(100%/12 * 3); }
+  .inner-block .four.columns                   { width: calc(100%/12 * 4); }
+  .inner-block .five.columns                   { width: calc(100%/12 * 5); }
+  .inner-block .six.columns                    { width: calc(100%/12 * 6); }
+  .inner-block .seven.columns                  { width: calc(100%/12 * 7); }
+  .inner-block .eight.columns                  { width: calc(100%/12 * 8); }
+  .inner-block .nine.columns                   { width: calc(100%/12 * 9); }
+	    .inner-block .nine                     { width: calc(100%/12 * 9); }
+  .inner-block .ten.columns                 { width: calc(100%/12 * 10); }
+	    .inner-block .ten                   { width: calc(100%/12 * 10); }  
+
+  .inner-block .eleven.columns                 { width: calc(100%/12 * 11); }
+	    .inner-block .eleven                   { width: calc(100%/12 * 11); }  
+  .inner-block .twelve.columns                 { width: calc(100%/12 * 12); }
+  
+  
+  .inner-block .four p {width:100%; float:none}
+  .inner-block .four p:nth-of-type(2) {margin-left:0px;} 
+  
+	.tenth-width {width: calc(100%/12 * 10); }	  
+  
+  
+  footer .copyright   { width: calc(100%/16 * 5) !important; padding-left:48px; }	
+  footer .three.columns  { width: calc(100%/16 * 3); }
+  footer .three.columns:nth-of-type(2)  { width: calc(100%/16 * 3); }  
+  footer .five.columns   { width: calc(100%/16 * 5); }
+	
+	}
+
+@media only screen and (min-width: 1140px)  {
+	.container {
+		width: 97.5%;
+	}
+	
+	.inner section.twelve, .inner article.twelve {max-width:880px; margin:0; float:none; } 	
+/*	.inner section.twelve.column, .inner article.twelve.columns {padding-right:0px;}*/
+	
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1280px) {
+.inner-block .ten.columns  { 
+	width: calc(100%/12 * 10); 
+	}		
+	}
+
+/* Larger than Desktop HD */
+@media (min-width: 1300px) {
+	.container { 
+		width: 100%; 
+		padding:0px;
+	}
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: 0rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: 0.01rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: 0.01rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+	nav#menu h4 { font-size: 3.0rem; line-height:1.3em;}
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+    #search h5 {line-height:1.3em}
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+	/********** 404 error style *************/
+	.error-block section h3 {font:bold 2.187em 'Source Sans Pro', Arial, Helvetica, sans-serif;  color:#c8382c; border:none;text-align:center}
+	.error-block section {padding-top:5%; padding-bottom:5%;text-align:center}
+	.error-block section h4 {font-size: 1.125em; color:#000; font-weight:bold}
+	.error-block section p {font-size:1em;color:#333333; margin-top:30px;}	
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+@media (min-width: 768px) {
+	.error-block section h3 {font-size: 3.0em;}
+	}
+
+@media screen and (min-width: 958px) {
+	.error-block section h3 {font-size: 4.0em;}
+	.error-block section h4 {font-size: 1.25em;}	
+	}
+
+
+p {
+  margin-top: 0; }
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  /*color: #0FA0CE; */}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  outline: 0; }
+  
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+  
+  
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+/*input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+*/  
+  
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { }
+ol {}
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0em 0 0em 3rem;
+  }
+li {}
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+ /* margin-bottom: 1.5rem; */}
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-width: 0;
+  border-top: 1px solid #cccccc; 
+  width:100%; 
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  
+  
+  @media (min-width: 767px) { 
+  hr {
+	  width: calc(100%/12 * 12 - 20px);
+	  margin-left:0px;
+  }
+  .open-text hr, .columns hr {width: 100%;}
+  
+  }
+
+hr.divider {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid #333;
+    margin-right: 20px;
+	margin-right:0px;	
+    padding: 0;
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+	.ad-space  {padding:15px 0;}
+	
+	 @media (max-width: 767px) { 
+	.top-ad, .btm-ad {display: block; max-width:300px; height:auto; width:100%; padding:10px 0; margin:0 auto;}
+	.top-ad img, .btm-ad img {width:100%; width:300px; height:50px; text-align:center}
+	 }
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	}
+
+/* Larger than tablet */
+@media (min-width: 768px) {
+	hr.divider {
+	    margin-right: 20px;
+	}
+	.top-ad, .btm-ad {height:auto; width:100%; margin:0 auto; padding: 10px 0; text-align:center; display:block;}
+	}	
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+/*.inner-block .six-tab {display:none;}	*/
+	}
+
+@media only screen and (min-width: 1140px)  {
+	}
+
+/* Larger than Desktop HD */
+@media (min-width: 1280px) { 
+	}
+
+/* Larger than Desktop HD */
+@media (min-width: 1300px) {
+    }

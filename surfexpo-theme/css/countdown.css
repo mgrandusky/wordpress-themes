@@ -1,0 +1,130 @@
+.clock-outsideContainer {background-color:#00ff66;}
+
+.clock-container {
+    max-width: 1260px; 
+    margin:0 auto;
+    font:normal 20px 'Source Sans Pro', serif !important;     
+    }
+
+    .clock-container a {text-decoration:none;}
+    .clock-section {background-color:#00ff66; padding:0 1%;}
+
+	    .clock-left-col, .clock-right-col, #clockdiv {
+    	    display:block;font:normal 24px 'Source Sans Pro', serif; padding:8px 0; width: 98%; }
+
+	    .clock-right-col { float:none; max-width:225px !important; width:100%; padding-bottom:10px; text-align:center; padding-top:0px;}
+    	.clock-left-col {margin: 0 auto; width: 100%; text-align:left}
+    
+            @media screen and (min-width: 480px) and (max-width: 957px){ 
+                .clock-left-col {text-align: center}
+            }
+
+        .clock-left-col p {font-size:30px; line-height:1.05em; margin:0; color:#000;  }
+        .clock-left-col strong {font-weight:800; line-height: 1.2em; fon-size:40px}
+        .clock-right-col p     {
+            font:normal 24px/1.333em 'Source Sans Pro', serif ; color:#000;
+            display:inline-block; vertical-align:top; margin:3px 0 0px;}
+
+    .reg-btn-rnd {
+        margin: 0 auto;
+        border-radius: 3px;
+        border: 3px solid #000;
+        padding: 3px 18px;
+        font:normal 22px 'Source Sans Pro', serif ;        
+        text-transform: uppercase;
+        color:#000;
+        display:block;
+        margin-top:5px;
+    }    
+    .reg-btn-rnd:hover {background-color:#000; color:#00ff66; text-decoration: none;}
+    
+    #clockdiv {
+        max-width:405px; text-align:center; margin:0 auto;width:100%;
+    }
+    .col-clock {display:inline-block; }
+    .countdown-title {
+        text-align:center;
+        font: normal 16px/1.3em 'Source Sans Pro', serif; color:#fff;
+        max-width:88px;
+    }
+
+    .dash {
+        background-color:#FFF;
+        float: left;
+        padding:0px 4px;
+        position: relative;
+        color:#00ff66;
+        font:bold 72px/72px 'Source Sans Pro', serif;
+        padding-bottom:8px;
+    }
+	  .countdown-title:nth-of-type(1) {max-width:130px;}
+	   #clockdiv .col-clock    {margin-right:0px; max-width:88px;}    
+	   #clockdiv .col-clock:nth-of-type(1)    { max-width:130px;}    
+
+	 @media (max-width: 1200px) {
+			.dash {font-size:64px; }		 
+	        .clock-left-col p {font-size:26px;}    						
+	 }	
+    @media (max-width: 958px) {    
+            .clock-left-col { text-align:center;}
+            .clock-right-col {max-width:100%; margin:0 auto}            	
+            .dash .digit {height:56px;}    
+            .clock-right-col p:nth-of-type(2) {margin:0 auto; max-width:230px;}
+			.clock-right-col p {display: block;}
+			.dash {font-size:60px; }
+
+    }
+
+	@media (max-width: 767px) {  
+        .countdown-title {
+            font-size: 14px;
+            max-width:66px;       
+        }
+        .clock-left-col p {font-size:24px; }		
+	   .clock-right-col{margin: 0 auto;}		
+	    .dash {font-size:52px; }	
+      }
+
+    	
+	@media (max-width: 480px) { 
+	   #clockdiv .col-clock    {margin-right:0px; max-width:70px;}    
+	   #clockdiv .col-clock:nth-of-type(1)    { max-width:100px;}    
+	}	
+		
+
+
+        
+    @media (min-width: 768px) {   
+		.clock-left-col { max-width: 80%;} 
+			
+	} 
+	
+    @media (min-width: 959px) {    
+        .clock-section {padding: 10px 1% 10px}
+        .clock-left-col, 
+        .clock-right-col, 
+        #clockdiv {
+            display:inline-block;
+            vertical-align:top; 
+            padding:0px; 
+			max-width:390px; 
+			margin-top:0px; 
+			width:100%			
+        }
+
+        .clock-right-col {text-align: right; float:right; padding-top:10px; }  
+		.clock-left-col { max-width: calc(100% - 400px - 255px - 10px);} /*leftcolumn = 100% - clockdiv - rightcol - padding  - to adjust the left column automatically*/     
+        .clock-right-col p {float:none; display:block; text-align: left; }            
+        .clock-right-col p.btn-cc {text-align: center;}
+        .reg-btn-rnd {width: 80%; margin-left:auto;}        
+    }
+
+	@media (min-width: 1300px) {
+  		.clock-section {padding: 10px 0 10px}
+	   
+	}
+	
+
+
+
+

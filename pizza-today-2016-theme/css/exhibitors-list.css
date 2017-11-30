@@ -1,0 +1,230 @@
+
+/*************** Floorplan  ****************/
+.floorplan-block {padding-bottom:35px;}
+.fp-image {width:100%; border:1px solid #000;}
+.fp-image img {margin: 0 auto; width:auto;}
+.floorplan-block p {display:inline-block; vertical-align:top; margin-top:15px;}
+.fp-content {width:100%; }
+
+/************** button ********************/
+
+input.exhibitors-btn, 
+.reset-btn {
+    padding: 4px 30px;
+    background-color: #40748e;
+	border: 2px solid #40748e;
+    color: #fff;
+    font: normal 1em 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.exhibitors-btn:hover {background-color:#40748e; color:#fff}
+
+.shade {
+    background-color: #40748e;
+    color: #FFF;
+    padding: 4px 30px;
+}
+
+.reset-btn {    
+	background-color: #000 !important;
+	border: 2px solid #000; }
+	
+
+/***************** form ****************/
+
+.exhibitorList-formblock {background-color:#e1e1e1; padding:9px 1%; display:block; border-top:2px solid #333333; width:100%}
+
+.exhibitorsList-block form > * {float:left;}
+
+.exhibitors-list input.exhibitorlist-search,
+.exhibitorsList-block form div.floor,
+.exhibitorsList-block form div.category,
+.exhibitorsList-block form div.event,
+.exhibitorsList-block form .contentOptions li {
+    border: none;
+    width: 98%;
+    height: 32px;
+    margin:0 1% 10px;
+    display: block;
+    overflow: hidden;
+}
+	.exhibitors-list input.exhibitorlist-search {padding-left:5px;}
+
+	.exhibitorsList-block form select[name="floor"],  
+	.exhibitorsList-block form select[name="category"], 
+	.exhibitorsList-block form select[name="subcategory"],
+	.exhibitorsList-block form select[name="neighborhood"]
+	   {
+	    width: 100%;  height: 32px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;	
+		}
+
+	.exhibitorsList-block form select {
+    	background-image: url(../images/structural-images/dd-icon.png);
+	    background-repeat: no-repeat;
+    	background-position: 97% 50%;
+	    border: medium none;
+    	border-radius: 0px;
+	    padding-left: 5px;
+	}
+
+	.exhibitorsList-block form .el-button {
+	   display:block;
+	   padding:8px 0;
+	   text-align:center;
+	   width: 100%;
+	}
+
+	.containerOptions {width:100%;}
+	.contentOptions {display:none;}
+		.contentOptions ul {margin-left:0px;}
+
+	div.headerOptions { 
+		width:98%; 
+		display:block; 
+		float:none;
+		color:#000000;  
+		margin:10px 1% 20px; 
+		line-height:0.1em;
+		position:relative;
+    	z-index:2;		
+		}
+	div.headerOptions:hover {cursor:pointer;}
+
+		div.headerOptions span {
+			font:normal 1em 'Source Sans pro', sans-serif;
+			cursor:pointer;
+			padding: 0 10px 0 15px;
+		}
+
+		.line-center{
+    		margin:0;padding:0 10px;
+	    	background:#e1e1e1;
+	    	display:inline-block;
+		}
+
+		div.headerOptions:after{
+    		content:"";
+		    position:absolute;
+		    top:50%;
+    		left:0;
+	    	right:0;
+	    	border-top: 1px solid #ccc;
+		    z-index:-1;
+		}
+
+	/***** List *************/
+	
+.exhibitors-list ul.exhibitors {margin:0px; width:100%; padding:0px; display:block; list-style:none;}
+	.el-midCol p span {cursor: pointer;}
+	.el-midCol p span:hover, .el-midCol p span.current {color:#40748e;}	
+
+.exhibitors-list ul.exhibitors li.el-header {padding:12px 10px; background-color:#e1e1e1}
+
+
+	.exhibitors-list .exhibitorsList-block > ul#myList {margin-left:0px;padding-left:0px; border-bottom:2px solid #333333; list-style:none;}	
+	ul#myList li {list-style:none;}
+	
+	.el-firstrow { width:100%; }	
+		.el-firstrow a {padding:12px 10px ; color:#000;}	
+		.el-firstrow:hover {cursor:pointer; background-color:#333;}
+		.el-firstrow a:hover {padding:12px 10px; text-decoration:none; color:#FFF}
+		.el-firstrow a.open {background-color:#333; color:#fff;}
+
+	   	 ul#myList li > .el-firstrow span.el-boothNum { text-align:left}	
+		 
+		 .el-detail {display:none;}
+		 .el-detail {width:100%; margin-left:0px;padding:20px 0; border-bottom:1px solid #ebebeb; background-color:#FFF}		 
+		 
+.exhibitors-list ul#myList li:nth-child(even){ background:#ebebeb;}		 
+		 
+	/********** Detail copy ***********/
+	.exhibitors-list .three-fourth { width:93%; }	
+	.exhibitors-list .one-fourth  { max-width:225px; width:100%; padding-bottom:8px; }	
+	
+	.el-rightCol p { margin:2% 2% 2% 5%;  line-height:1.875em}		 
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {}
+	
+@media only screen and (min-width: 768px) {
+	
+	/****************** Exhibitors List ***********/
+	
+	.exhibitorsList-block form div.floor {width: 23%; display: inline-block}
+	.exhibitorsList-block form div.category {width:calc(100% - 4% - 23%); display: inline-block}
+	
+	.exhibitors-list .three-fourth { width:calc(100% - 35% - 1.5%); }	
+	.exhibitors-list .one-fourth  {  width:35%; margin-right:1.5%; }	
+	}	
+	
+@media screen and (min-width: 958px) {
+
+.exhibitors-list input.exhibitorlist-search {width: 33%; display:inline-block}
+
+.exhibitors-list input.exhibitorlist-search, 
+.exhibitorsList-block form div.floor, 
+.exhibitorsList-block form div.category, 
+.exhibitorsList-block form .contentOptions li  {margin: 0 .5% 10px;}
+
+.exhibitorsList-block form > * {
+   display:inline-block !important;
+   vertical-align: top;
+}
+
+.exhibitorsList-block form div.floor { width: 14%; }
+.exhibitorsList-block form div.category { width: 21%;}
+.exhibitorsList-block form .contentOptions li {width: 27.5%; display:inline-block}
+
+	.exhibitorsList-block form > .el-button {
+		width: calc(100% - 33% - 14% - 21% - 4%); 
+		margin-left:.5%; margin-right:.5%; 
+		text-align:left; padding: 0px;
+	}
+
+	input.exhibitors-btn, .reset-btn {padding:4px 0; width:48.5%;}
+	.reset-btn {width:48%; margin-left:1%;}
+
+	.exhibitors-list .three-fourth { width:calc(100% - 21% - 1.5%); }	
+	.exhibitors-list .one-fourth  {  width:21%; margin-right:1.5%; }	
+	.exhibitors-list .flex-parent .three-fourth {display:flex; flex-flow: row wrap; align-items: flex-start; flex-direction: row; justify-content: flex-start;}	
+	.exhibitors-list .flex-parent .three-fourth p {margin: auto; width: calc(98% - 30% - 5%); margin: 0; }
+    .exhibitors-list .flex-parent .three-fourth p:nth-of-type(1) {max-width:30%; margin: 0 5% 0px 0;}
+	
+	}	
+
+@media only screen and (min-width: 1000px) {}
+	
+@media only screen and (min-width: 1140px)  {}	
+
+@media only screen and (min-width: 1300px) {}
+
+
+/********* Misc ***************/
+.flex-parent {display:flex;  flex-flow: row wrap; align-items: flex-start; flex-direction: row;}
+	.start {justify-content: flex-start;}
+	.end {justify-content: flex-end;}	
+	.center {justify-content: center;}
+	.stretch {justify-content: stretch;}
+	.between {justify-content: space-between;}
+	.around {justify-content: space-around;}
+
+.exhibitors-list .flex-parent p {margin: auto; max-width:95%; margin: 0 15px 0px 0; }
+.exhibitors-list .flex-parent span.el-compName, .exhibitors-list .flex-parent span.el-boothNum {margin: auto; max-width:95%; margin: 0 10% 0px 0; }
+
+	.exhibitors-list .flex-parent span.el-compName,
+	.exhibitors-list .flex-parent div.el-company {
+		width:66%; 
+		margin:0px;
+	}
+	.exhibitors-list .flex-parent span.el-boothNum,  
+	.exhibitors-list .flex-parent div.el-booth {
+		width:30%; 
+		margin:0 0 0 2%;
+	}

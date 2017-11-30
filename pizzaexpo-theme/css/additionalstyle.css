@@ -1,0 +1,548 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****** LINKS *************/
+
+.exhibitors section a {color:#6d6e71}
+.exhibitors section a:hover, .exhibitors li.ex-header div a:hover,
+.exhibitors li.ex-header div a.current:hover,
+.read-more-toggle:hover {color:#93191E; cursor:pointer; text-decoration:underline;}
+
+.exhibitors li.ex-header div a {color:#888888} 
+.exhibitors li.ex-header div a.current {color:#d71921} 
+
+.ex-header a.current {color:#6d6e71;}
+
+     .loadmore {
+          color: #FFF;
+          border-radius: 0px;
+          border:none;
+          width: 50%;
+          height: 50px;
+          background: #d71921;
+          outline: 0;
+          font-family: 'Source Sans Pro', sans-serif;
+		  text-transform:uppercase;
+       }
+      .loadbutton{
+          padding-top:10px;
+          text-align: center;
+       }
+
+	.educSched-formblock .red, .educSched-formblock .gray-btn {
+    	padding: 0px;
+	    display: inline-block;
+    	width: 11%;
+	    height: 34px;
+	}
+	
+	.education-schedule-page .loadmore {width:auto; padding:0 50px;}
+
+/*************STYLES ****************/
+
+h4.event-date {font-size:1.125em; font-weight:normal; margin:8px 0}
+h4.event-title {font-size:1.125em; font-weight:bold; margin:8px 0 5px}
+
+/**************Read More/Less ********************/
+
+.headerOptions {
+	background: url(images/arrowLess.png) no-repeat 0 center; 
+	padding-left:20px;
+	display:block; 
+	float:none;
+	color:#888888; 
+	font:bold 1em 'Source Sans pro', sans-serif; margin:10px 0;}
+	
+.open-options {
+	background: url(images/arrowMore.png) no-repeat 0 center; 
+	padding-left:20px;
+	}
+
+.read-more-toggle {
+	background: url(images/readMore.png) no-repeat 0 center; 
+	padding-left:15px; 
+	color:#d71921; 
+	margin:20px 0; 
+	width:100px;
+	}
+
+.read-less {
+	background: url(images/readLess.png) no-repeat 0 center; 
+	padding-left:15px;
+	}
+.read-more-content {display:none;}
+.contentOptions {display:none; }
+
+#education-schedule .read-more-content ul { list-style-position:inside; padding-left:15px;}
+#education-schedule .read-more-content ul li {list-style-type:disc;}
+.hide {display:none;}
+
+.containerOptions {width:100%;}
+
+/********* FORM **************/
+
+#education-schedule{
+    width: 100%;
+    background-color: #e3e3e4;
+    }
+
+	.educSched-formblock {background-color:#e3e3e4; padding:0px; display:block}
+	 #education-schedule form {padding:10px}
+     #education-schedule form > * {
+          float: left;
+     }
+     #education-schedule form input{
+          height: 50px;
+          padding: 5px;
+		  margin-bottom:3px;
+		  color:#888;
+     }
+	 
+	.educSched-formblock select {
+    	background: #fff url("http://www.icff.com/wp-content/themes/icff-theme/img/select-d.png") no-repeat 83% 50%;
+	    border: medium none;
+	    border-radius: 0px;
+    	padding-left: 5px;
+		color:#888888;
+	}	 
+	.educSched-formblock placeholder {text-align:center}	 
+	 
+	 #education-schedule form select[name="date"],
+	 #education-schedule form select[name="event"]{
+          width: 112%;
+          height: 50px;
+	  }
+	  
+	#education-schedule form .contentOptions li {
+	    border: medium none;
+	    width: 100%;
+	    height: 50px;
+	    margin-bottom: 5px;
+	    display: block;
+	    overflow: hidden;
+	}	  
+	  
+   #education-schedule form select[name="type"], 
+   #education-schedule form select[name="location"],  #education-schedule form select[name="track"],
+   #education-schedule form select[name="focus"],  #education-schedule form select[name="speaker"] {
+    width: 112%;
+    height: 50px;
+}	  
+	  
+	#education-schedule form input[name="title"] {width: 100%; border:0px;}
+	
+    #education-schedule form input[type="submit"]{
+         width: 80px;
+         border: 0;
+         background-color: #d71921;
+         color: #fff;
+	 	 text-transform:uppercase;
+		 margin: 0 5px 0 0			
+    }
+    #education-schedule form .reset{
+         width: 80px;
+         border: 0;
+         color: #FFF;
+         border-radius: 0px;
+         border: none;
+         background: #888;
+         outline: 0;
+         height: 50px;
+		 text-transform:uppercase;
+		 margin-top:0px;					
+     }		
+                
+	.educSched-formblock div.date,
+	.educSched-formblock div.event {
+	    display: block;
+    	overflow: hidden;
+	    border: none;
+    	width: 100%;
+	    height: 50px;
+		vertical-align:top;
+	    margin: 3px;	
+		margin-left:0px;
+	}				
+	
+	#education-schedule form select option{
+        width: 100%;
+        height: 50px;
+    }		
+				
+       #education-schedule ul{
+            width: 100%;
+            margin: 0;
+			padding: 0px;
+        }
+        
+	    #education-schedule > ul > li{
+            background-color: #fff;
+        }			
+
+        #education-schedule ul li{
+            list-style: none;
+            border-bottom: 1px solid #ccc;			
+        }
+		
+        #education-schedule ul li.ex-header {
+            border-bottom: none;			
+        }		
+		
+        #education-schedule > ul > li > div:nth-of-type(1){
+
+            padding: 0px;
+        }			
+				
+        #education-schedule > ul > li > div > section {
+            height: 100%;
+            padding: 10px 10px 10px 0;
+            display: inline-block;
+            float: left;
+			color:#6d6e71;
+			width:88%;
+        }					
+				
+		#education-schedule > ul > li > div > section:nth-of-type(2) {width:10%;}				
+		.educ-button {width:100%; margin-top:10px;}				
+				
+	.add-planner {
+		padding-left:0px; 
+		margin-top:10px;
+		}
+		.add-planner span {display:none;}				
+
+
+/*** Header **/
+        #education-schedule > ul > li.ex-header > div{
+                    border: 0;
+                    padding: 10px;
+                    display: inline-block;
+                    float: left;
+                    font-weight: bold;
+                }
+
+		 #education-schedule ul li.ex-header:hover > div{
+                    background-color: #f4f4f4;
+                    font-weight: bold;
+         }
+
+         #education-schedule ul li.ex-header:hover > div{
+                    background-color: #f4f4f4;
+                    color:#000;
+                    font-weight: bold;
+         }
+
+         #education-schedule ul li.ex-header{
+                    font-weight: bold;
+					background-color:#f5f5f5;
+					
+         }
+         #education-schedule ul .ex-header:hover > div{
+                    font-weight: bold;
+                    color: #333333;
+         }
+         #education-schedule > ul > li > div:nth-of-type(1){
+                    width: 100%;
+										
+         }
+
+		 
+         #education-schedule > ul > li.ex-header > div:nth-of-type(1){
+                    width: 35%;
+         }
+         #education-schedule > ul > li.ex-header > div:nth-of-type(2){
+                    width: 65%;
+					text-align:right;
+					color: #6d6e71
+         }
+                #education-schedule ul li.ex-header a span{
+                    color: #888888;
+                    position: relative;
+                    padding-left: 18px;
+                   /* float: right;*/
+                }
+        		#education-schedule ul li.ex-header .print img{
+                	opacity: 0.6;
+                    position: absolute;
+                    top: 2px;
+                    left: -1px;
+                }
+                #education-schedule ul li.ex-header a:nth-of-type(2) img{
+                    opacity: 1;
+                    position: relative;
+                }
+                #education-schedule ul li.ex-header a:hover span{
+                    color: #93191E; text-decoration:underline
+                }
+                #education-schedule ul li.ex-header a:hover img{
+                    opacity: 1;
+                    
+                }
+
+				
+/*                
+
+
+                
+                #education-schedule > ul > li > div > section:nth-of-type(1){
+                    width: 76%;
+
+                }
+                #education-schedule > ul > li > div > section:nth-of-type(2){
+                    width: 23%;
+                    
+                }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+                /*
+                @media screen and (min-width: 767px) and (max-width: 959px){
+                    #education-schedule .detail{
+                        height: 200px;
+                    }
+                    #education-schedule .detail .logo img {
+                        
+                        width: 97%;
+                    }
+                }
+                */
+                @media screen and (max-width: 959px){}
+/*                    #education-schedule ul li.ex-header{
+                        height: 60px;
+                    }
+                    #education-schedule > ul > li > div > p:nth-of-type(1){
+                        width: 75%;
+                    }
+                    #education-schedule > ul > li > div > p:nth-of-type(2){
+                        width: 25%;
+                    }
+                     #education-schedule > ul > li > div:nth-of-type(1){
+                                width: 100%;
+                        }
+                        #education-schedule > ul > li.ex-header > div:nth-of-type(1){
+                            width: 75%;
+                        }
+                        #education-schedule > ul > li.ex-header > div:nth-of-type(2){
+                            width: 25%;
+                        }
+                    #education-schedule form select[name="category"] {
+                            height: 50px;
+                            width: 113% !important;
+                            margin:0px !important;
+                            padding:3px !important;
+                        }
+                   #education-schedule form div.category {
+                        margin:0px !important;
+                    }
+                    #education-schedule form select[name="floor"] {
+                            height: 50px;
+                            width: 113% !important;
+                            margin:0px !important;
+                            padding:3px !important;
+                        }
+                   #education-schedule form div.floor {
+                        margin: 0px !important;
+                        margin-bottom: 5px !important;
+                    }
+
+                    #education-schedule .reset {
+                        width: 100%!important;
+                        display: block;
+                        margin: 5px 0px !important;
+                    }
+                    #education-schedule form div.floor {
+                        display: inline-block;
+                        overflow: hidden;
+                        border: 1px solid #AAA;
+                        width: 100%;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                    #education-schedule form div.category {
+                        display: inline-block;
+                        overflow: hidden;
+                        border: 1px solid #AAA;
+                        width: 100%;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                    #education-schedule > ul > li > div{
+                        height: 100%;
+                    }
+                    #education-schedule .detail .logo img {
+                    margin-bottom:15px;
+                    }
+                    #education-schedule .detail {
+                        padding: 10px;
+                        clear: both;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        width: 100%!important;
+                        height: auto;
+                    }
+                    #education-schedule .detail .logo{
+                        float: none;
+                        width: 100%;
+                        border-right: none;
+                    }
+                    #education-schedule .detail ul {
+                        width: 100%;
+                        float: none;
+                        list-style-type: none;
+                    }
+                    #education-schedule .detail ul li {
+                        display: block;
+                        margin: 1%;
+                        width: 98%;
+                        float: none;
+                        list-style-type: none;
+                    }
+                    #education-schedule .detail .logo img{
+                        display: block;
+                    }
+                    #education-schedule .detail .logo span{
+                        display: none;
+                    }
+                }*/
+				
+				
+                @media screen and (max-width: 767px){}
+/*                    #education-schedule ul li.ex-header {
+                        height: 80px;
+                    }
+                    #education-schedule .detail .logo img {
+                      max-width: 288px;
+                    }
+                    .ex-header div > span{
+                        display: block;
+                        float: none !important;
+                    }
+                    .filter-letter{
+                        width: 185px;
+                        float: none;
+                        display: block;
+                        float:right;
+                        text-align:right;
+                        margin:10px 0px;
+                    }
+                    .sort-letters {
+                        text-align:left;
+                    }
+                }
+
+
+	#education-schedule form input, #education-schedule form select{
+	   width: 100%;
+	   display: block;
+	   margin: 5px 0px !important;
+    }
+	
+	#education-schedule form input[name="title"] {
+	   	 width: 100%; display:block; margin-bottom:10px;	
+	 }
+	*/
+	
+
+
+
+@media only screen and (min-width: 480px) {}
+
+
+@media only screen and (min-width: 768px) {
+	
+	.educSched-formblock select {background-position:85% 50%;}		
+	
+	#education-schedule form input[name="title"] {
+	   	 width: 100%; display:block; margin-bottom:6px;	
+	 }
+
+
+	#education-schedule form input[name="date"] {
+	   	 width: 49%; display:inline-block;	
+	 }
+
+	.educSched-formblock div.date  {width:49.5%; margin:0px;}
+	.educSched-formblock div.event {width:49.5%; margin-left:1%}
+	.educSched-formblock select[name="date"] {margin-left:0px;}
+	
+	.educ-button {display:block; margin-top:10px; width:100%;}
+	
+	#education-schedule form input[type="submit"] { margin: 0px;  display:inline-block; padding:6px 3%; width:auto;}
+	#education-schedule form .reset {display:inline-block; padding:6px 3%; width:auto;}
+	
+	.educSched-formblock div.date,
+	.educSched-formblock div.event {
+    	display: inline-block;
+	    width: 49%;
+		vertical-align:top;
+    	margin: 0px;	
+	}
+	
+	.educSched-formblock div.event {
+    	margin-left:2%;	
+	}	
+	
+	#education-schedule form .contentOptions li	{width:49%; display:inline-block; vertical-align:top; margin-left:0px;}
+	#education-schedule form .contentOptions li:nth-of-type(2n) {margin-left:1%;}	
+}
+
+@media screen and (min-width: 1140px) {
+	
+	
+#education-schedule form select[name="date"],
+#education-schedule form select[name="event"] {width:120%; margin-left: 1%; height:50px;background-position:75% 50%;}
+
+#education-schedule form input[name="title"] {width: 33%; border:0px; margin-right:1%}
+
+#education-schedule .educSched-formblock select[name="event"] {margin:0 1%}
+
+#education-schedule .educSched-formblock select[name="type"],
+#education-schedule .educSched-formblock select[name="location"],
+#education-schedule .educSched-formblock select[name="track"],
+#education-schedule .educSched-formblock select[name="focus"],
+#education-schedule .educSched-formblock select[name="speaker"] {width:120%; margin-left: 1%; height:50px;}	
+	
+	.educSched-formblock div.date {
+	    width: 14%;
+    	display: inline-block;
+	}
+
+	.educSched-formblock div.event {
+    	width: 25%;
+	    display: inline-block;
+		margin-left:1%;
+	}	
+	.educ-button {display:inline-block; width:25%; margin-left:1%; margin-top:0px;}	
+	
+	#education-schedule form input[type="submit"]	{width:50%}
+	#education-schedule form .reset {width:47%;}
+	
+#education-schedule > ul > li > div > section {width:75%}
+#education-schedule > ul > li > div > section:nth-of-type(2) {width:24%; text-align:right}	
+	.add-planner span {display:inline-block; vertical-align:-1px; margin-left:4px;}	
+	.add-planner span:hover {text-decoration:underline;}	
+	.add-planner img {display:inline-block; vertical-align:middle;} 	
+	
+	}

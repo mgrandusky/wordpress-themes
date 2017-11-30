@@ -1,0 +1,235 @@
+/*#network-container {background-color:#111; height:35px; display:block; min-width:300px;}*/
+
+/* ==============
+    NETWORK HEADER
+   ============== */
+ /*#network-container ul {float: left;margin:0px; position:relative; top:0px; display:inline-block; width: auto; padding-right:10px;} 
+*/
+	#network ul li {
+	    margin: 0px;
+    	background: transparent none repeat scroll 0% 0%;
+		display:block;
+		color:#c2c2c2;
+		padding:5px 2px;
+	}	
+	
+/*	#network-container  nav a {
+		margin:0px;
+		color:#888;
+		font:normal 0.7777em 'Source Sans Pro', sans-serif; 
+		padding: 2px 11px 3px;
+		text-transform:uppercase;
+		}	
+	#network-container  nav a.active {color:#fff;}
+	
+	#network-container nav a:hover,
+	#network-container nav a.active:hover
+		{color:#fff;}
+*/
+
+#network-container {
+	font: 300 18px/25px;
+	background: #000;
+}
+
+#network-container nav span {
+    font: bold 17px/24px;
+    color: #c2c2c2;
+}
+
+#network-container nav a {
+    font: normal 17px/24px;
+    color: #c2c2c2;
+    padding: 6px 11px 5px;
+}
+
+#network-container nav a.active {
+    color: #fff;
+    text-decoration:none;
+}
+
+#network-container nav li:hover, #network-container nav a:hover {
+    color: #fff;
+    background:#222;
+    text-decoration: none;
+}
+
+#network-container nav {
+    background: #111;
+    height: auto;
+    padding: 2px 5px 4px 15px;    
+    height: 50px;
+}
+
+#network-container nav h5 {
+    display: none;
+}
+
+#network-container img {
+    padding-top: 8px;
+}
+
+#network-container nav ul {
+    padding: 12px 0 9px;
+    margin-left: 0px;
+    margin-right: 0px;
+	width:100%;
+}
+#network-container nav ul li {
+    padding: 0px 10px;
+    border-left: 1px solid #c2c2c2;
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;    
+}
+
+    #network-container nav ul li:last-of-type {
+     border-left: 1px solid #c2c2c2;
+    }   
+
+
+#network-container nav {
+    background: #111;
+    height: auto;
+    padding: 0px 0px;
+    height: 44px;
+}
+
+#network-container nav ul {
+    padding: 0px 0 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+    
+#network-container nav a {
+    font: 600 15px/17px;
+    color: #c2c2c2;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#network-container nav ul li:first-of-type {
+    border-left: 0px;
+}
+#network-container nav ul li:nth-of-type(2) {
+    border-left: 0px;
+}
+
+#network-container .right-nav ul li { float:left; }
+
+@media screen and (max-width: 1024px) {
+
+    #network-container nav h5 {
+        display: inline-block;
+        margin: 0px 0px;
+        letter-spacing: initial;
+        padding: 0px 11px;
+        text-align: left;
+        line-height: 1em;
+    }
+
+    #network-container nav h5:hover {
+        background: #222;
+    }    
+
+    #network-container nav ul {
+        display: none;
+        position: absolute;
+        top: 44px;
+        left: 0px;
+        background: #111;
+        width: 100%;
+    }
+
+    #network-container nav {
+        padding: 0px 0px 0px 0px;
+    }
+
+    
+
+    #network-container nav.active {
+        background: #222;
+    }
+
+    #network-container nav ul a:hover {
+        color: red;
+        background: #111;
+    }
+
+
+    #network-container nav ul.show {
+        display: block;
+        z-index: 100;
+        padding-left:0px;
+    }
+
+    #network-container nav ul li {
+        float: none;
+        margin: 0px;
+        background: none;
+        border-top: 1px solid #333;
+        border-left: 0px;
+        padding: 0px;
+        display: block;
+        text-align: left;
+    }	
+
+    #network-container nav ul li:active, #network-container nav ul li:hover {
+        background: #222;
+    }
+
+    #network-container nav ul li:active a, #network-container nav ul li:hover a {
+        color: #fff !important;
+        background: #222;
+    }
+
+
+
+    #network-container nav a {
+        padding: 0px 11px 4px;
+    }
+
+
+    #network-container nav ul li a {
+        padding: 15px 11px 11px;
+        /*padding: 0px 11px 4px;*/
+        display: block;
+    }
+
+    #network-container nav h5 a {
+        display: block;
+        padding: 15px 0px 12px !important;
+        width: 15px;
+        width: 100%;
+		float:left;
+    }
+
+#network-container nav h5.right ul.show, #network-container nav h5.left ul.show {
+        display: block;
+        z-index: 100;
+        padding-left: 0px;
+    }    
+#network-container nav ul li.hide-mobile { display:none; }
+}	   
+   
+
+
+#network-container nav div:nth-of-type(1) {
+    float: left;
+    width:40%
+    }
+#network-container nav div:nth-of-type(2) {
+    float: right;
+    width:60%;
+    text-align:right;
+    }   
+
+@media screen and (max-width: 1279px) {
+    #network-container ul {
+        justify-content: flex-start;
+        display:inline-block;
+        }   
+    }    
