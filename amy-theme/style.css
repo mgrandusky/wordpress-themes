@@ -1,0 +1,729 @@
+/*  
+Theme Name: Amy's Theme
+Version: 1.0
+*/
+
+html, body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px;
+  border: 0;
+  color: #515151;
+  padding-top: 9px;
+
+}
+
+body, img, p, h1, h2, h3, h4, h5, ul, ol, li, form, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000 url(https://www.asimonsays.com/wp-content/uploads/2012/06/background.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position: center top; 
+  background-size: 3000px 2454px;
+}
+
+p {
+  line-height: 19px;
+  padding: 5px 0;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 10px 0;
+}
+
+h1 {
+  color:#8c0607;
+  text-shadow: #767575 0.1em 0.1em 0.2em;
+  font-size:35px;
+  font-style:italic
+}
+
+ul, ol {
+  list-style: none;
+  padding: 10px 0;
+}
+
+small {
+  font-size: 11px;
+}
+
+code {
+  font-size: 11px;
+}
+
+a {
+  color: #8c0607;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a img {
+  border: none;
+}
+
+blockquote {
+  font-size: 12px;
+  width: 80%;
+  padding: 0 20px;
+  margin: 5px auto;
+  background: #EDEDED;
+  color: #717171;
+  line-height: 19px;
+  font-style: italic;
+}
+
+blockquote p {
+  padding: 10px 0;
+}
+
+/* Align */
+
+.aligncenter {
+  margin: 10px auto 20px auto;
+  display: block;
+}
+
+.alignleft {
+  margin: 10px 10px 8px 0;
+  float: left;
+}
+
+.alignright {
+  margin: 10px 0px 8px 10px;
+  float: right;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: left;
+}
+
+/* Wrap */
+
+#wrap {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+#wrap_in {
+  width: 1000px;
+  padding: 0px;
+  min-height: 500px;
+  
+}
+
+/* Top */
+
+#top {
+  width: 1000px;
+  height:115px;
+  border:3px solid #d0b003;
+  background: #ffffff;
+  border-radius:10px;
+  -moz-border-radius:10px; 
+  margin-bottom:15px;
+}
+
+#top .col-left {
+  width: 500px;
+  padding-left:20px;
+}
+
+#top .col-left h1 {
+  font-size: 35px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 5px 0;
+}
+
+#top .col-left h1 a {
+  color: #212121;
+}
+
+#top .col-right img {
+  
+}
+
+#top .col-right {
+  margin-top:60px;
+  margin-right:15px;
+  float:right;
+}
+
+/* Menu */
+
+#menu {
+  width: 1050px;
+  height: 49px;
+  background: url(https://www.asimonsays.com/wp-content/uploads/2012/06/menu-background2.png) no-repeat 0 0;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: -18px;
+}
+
+/* #menu ul {
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  display: block;
+  float: left;
+  padding: 0 30px;
+  line-height: 25px;
+  border-right:1px solid #ffffff;
+  color: #fff;
+}
+
+#menu ul li.first a {
+  background: none;
+}
+
+#menu ul li a:hover, #menu ul li.current_page_item a {
+  text-decoration: underline;
+}*/
+
+#menu ul { 
+  padding: 0;
+  }
+  
+#menu li {
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  }
+  
+#menu ul li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  }
+
+#menu ul li ul {
+  list-style: none;
+  margin: 42px 0px;
+  padding: 0px;
+  }
+  
+#menu li a, #menu li a:link {
+  color: #fff;
+  display: block;
+    float: left;
+  padding: 0 25px;
+  line-height: 42px;
+  border-left:1px solid #ffffff;
+  }
+
+#menu li li a, #menu li li a:link, #menu li li a:visited {
+  padding:0px 0px 0px 10px;
+  color: #fff;
+  display: block;
+  background: url(https://www.asimonsays.com/wp-content/uploads/2012/06/nav-back.jpg);
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#menu li a:hover, #menu li a:active {
+  color: #fff;
+  display: block;
+  text-decoration: underline;
+  }
+#menu li li a:hover, #menu li li a:active {
+
+  color: #fff;
+  background: #8c0607;
+  display: block;
+  text-decoration: none;
+  }
+  
+#menu  li.current-cat a {
+  color:#ffffff;
+  }
+#menu li ul {
+  z-index: 9999;
+  position: absolute;
+  left: -999em;
+  height: auto;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  }
+
+#menu li li { 
+  }
+
+#menu li ul a { 
+  width: 175px;
+  }
+
+#menu li ul a:hover, #menu li ul a:active { 
+  }
+
+#menu li ul ul {
+  margin: -32px 0 0 171px;
+  }
+
+#menu li:hover ul ul, #menu li:hover ul ul ul, #menu li.sfhover ul ul, #menu li.sfhover ul ul ul {
+  left: -999em;
+  }
+
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul {
+  left: auto;
+  }
+
+#menu li:hover, #menu li.sfhover { 
+  position: static;
+  }
+#menu li:hover, #menu li.sfhover { 
+  position: static;
+  }
+
+#menu ul li.first a {
+  border-left: none;
+}
+/* Content Wrap */
+
+#content_wrap {
+  width: 960px;
+  padding: 15px 20px 30px 20px;
+  border:3px solid #d0b003;
+  border-top:none;
+  background: #ffffff;
+  border-radius:10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-top-left-radius:0px; 
+  -moz-border-top-right-radius:0px; 
+  -moz-border-bottom-left-radius:10px; 
+  -moz-border-bottom-left-radius:10px; 
+  margin-bottom:15px;
+  margin-top:-6px;
+
+}
+
+/* Content */
+
+#content {
+  width: 100%;
+}
+
+#content h2 {
+  font-size: 28px;
+  font-weight: normal;
+  text-transform:none;
+  clear: both;
+}
+
+#content h2 a {
+  color: #515151;
+}
+
+#content h2.arh {
+  background: url(img/bg_lines.gif) repeat-x 0 bottom;
+  padding-bottom: 5px;
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+#content li {
+  line-height: 16px;
+  padding: 2px 0;
+}
+
+#content ul {
+  padding-left: 20px;
+}
+
+#content ul li {
+  list-style: disc;
+}
+
+#content ol {
+  padding-left: 28px;
+}
+
+#content ol li {
+  list-style: decimal;
+}
+
+.post {
+  padding-bottom: 10px;
+}
+
+.wp-caption {
+border: 1px solid #ddd;
+text-align: center;
+background-color: #f3f3f3;
+padding-top: 4px;
+/* optional rounded corners for browsers that support it */
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+.wp-caption img {
+margin: 0;
+padding: 0;
+border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+font-size: 11px;
+line-height: 17px;
+padding: 0 4px 5px;
+margin: 0;
+}
+
+/* Comments (single.php and comments.php) */
+
+.comments_wrap {
+  width: 600px;
+  margin: 20px 0 0px 10px;
+  clear: both;
+  padding-bottom: 5px;
+}
+
+.comments_wrap .left {
+  width: 46px;
+  padding-top: 2px;
+  float: left;
+}
+
+.comments_wrap .left img {
+  padding: 2px;
+  border: #DDDDDD 1px solid;
+}
+
+.comments_wrap .right {
+  width: 500px;
+  float: left;
+  padding-left: 15px;
+}
+
+.comments_wrap .right h4 {
+  font-size: 11px !important;
+  text-transform: none;
+  padding: 0;
+  font-weight: normal;
+}
+
+.comments_wrap .right h4 b {
+  font-size: 12px !important;
+}
+
+.comments_wrap .right h4 a {
+  text-decoration: none;
+}
+
+.comments_wrap .right h4 a:hover {
+  text-decoration: underline;
+}
+
+/* Comments (form) */
+
+#content form {
+  margin: 20px 0 30px 10px;
+}
+
+#content form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+#content form label input {
+  padding: 3px;
+  width: 180px;
+  font-size: 12px;
+}
+
+
+
+
+
+
+#content textarea {
+  margin-bottom: 10px;
+  display: block;
+  padding: 3px;
+  font-size: 12px;
+}
+
+#content form input {
+  margin-top: 5px;
+}
+
+.lc_logged {
+  padding: 0;
+  margin-top: -10px;
+}
+
+/* Sidebar */
+
+#sidebar {
+  width: 255px;
+  border: 1px solid #d0b003;
+  -moz-box-shadow: 2px 2px 4px #000;
+  -webkit-box-shadow: 2px 2px 4px #000;
+  box-shadow: 2px 2px 4px #000;
+  padding:10px;
+margin-right:30px;
+}
+
+#sidebar h3 {
+  background: url(img/bg_lines.gif) repeat-x 0 bottom;
+  padding: 10px 0 5px 0;
+  font-size:25px; 
+  color:#8c0607;
+  text-shadow: #767575 0.1em 0.1em 0.2em;
+  font-weight:normal;
+}
+
+#sidebar ul {
+  padding: 5px 0;
+list-style-type: none;
+}
+
+#sidebar li {
+  
+  line-height: 16px;
+  padding: 4px 0 4px 15px;
+list-style-type: none;
+}
+
+#sidebar ul li a {
+  color: #515151;
+}
+
+#sidebar img {border: 1px solid #d0b003;-moz-box-shadow: 2px 2px 4px #000;-webkit-box-shadow: 2px 2px 4px #000;box-shadow: 2px 2px 4px #000;}
+
+/* Sidebar (search) */
+
+#sidebar .search {
+  width: 242px;
+  height: 23px;
+  margin-top: 10px;
+  background: url(img/bg_search.gif) no-repeat 0 0;
+  position: relative;
+}
+
+#sidebar .search input.field {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 170px;
+  left: 5px;
+  top: 3px;
+  position: absolute;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+
+#sidebar .search input.sb {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Widget (calendar) */
+
+#wp-calendar {
+  width: 95%;
+  padding: 0 0 0px 0;
+  margin-bottom: 15px;
+}
+
+#wp-calendar caption {
+  padding: 10px;
+}
+
+#wp-calendar th, #wp-calendar td {
+  padding: 5px;
+  text-align: center;
+  background: #DDDDDD;
+}
+
+#wp-calendar td {
+  background: transparent;
+}
+
+#wp-calendar td, table#wp-calendar th {
+  padding: 3px 0;
+}
+
+#wp-calendar a {
+  text-decoration: underline;
+}
+
+#wp-calendar a:hover {
+  text-decoration: none;
+}
+
+/* Tage Cloud */
+
+#tag_cloud {
+  margin-bottom: 10px;
+}
+
+#tag_cloud h3 {
+  margin-bottom: 10px;
+}
+
+/* Text Widget */
+
+.textwidget {
+  padding: 10px 0;
+}
+
+/* Footer */
+
+#footer {
+  width: 1000px;
+  margin: 0 auto;
+  clear: both;
+  text-align: right;
+  font-size: 12px;
+  padding: 0px 0 25px 0;
+}
+
+#footer p {
+  padding: 3px 0;
+  line-height: 16px;
+  color: #ffffff;
+  text-align:right;
+}
+
+#footer a {
+  color: #ffffff;
+}
+.postmeta {
+border-top:1px dotted #B7B7B7;
+color:#979797;
+font-size:11px;
+margin:0;
+padding:3px 0 10px;
+text-align:right;
+width:100%;
+}
+/* Fix */
+
+.comments_wrap:after,
+.wrap:after {
+    content: "."; 
+    display: block;
+   height: 0;
+    clear: both; 
+    visibility: hidden;
+}
+img.wp-post-image,
+img.attachment-thumbnail,
+img.attachment-medium,
+img.attachment-large,
+img.attachment-full {
+  border: 1px solid #d0b003;-moz-box-shadow: 2px 2px 4px #000;-webkit-box-shadow: 2px 2px 4px #000;box-shadow: 2px 2px 4px #000;
+float: left;
+margin: 10px 10px 0px 0px;
+
+}
+
+@media screen and (max-width: 768px) {
+  /* apply a natural box layout model to all elements, but allowing components to change */
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  #wrap{
+    max-width: 100%;
+    width: calc(100% - 10px);
+  }
+  #top, #wrap_in, #top .col-left, #content_wrap{
+    width: 100%;
+  }
+  #top{
+    height: auto;
+  }
+  #top .col-right{
+    float: none;
+    text-align: left;
+  }
+  #top .col-right a{
+    display: inline-block;
+  }
+  #toggle{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  #toggle .menu{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url(https://www.asimonsays.com/wp-content/uploads/2017/02/1487658353_Menu1.png);
+    background-size: contain;
+  }
+  #menu{
+    max-width:100%;
+    width: 100%;
+    z-index: 33;
+    height: auto;
+    display: none;
+    margin-left: 0;
+  }
+  #menu ul li{
+    float: none;
+    z-index: 100;
+    background: url('//www.asimonsays.com/wp-content/uploads/2012/06/menu-background2.png') no-repeat 0 0;
+  }
+  #menu li a, #menu li a:link{
+    float:none;
+    z-index: 22;
+    border: 0;
+  }
+  #menu.open{
+    display: block;
+  }
+  #menu li ul{
+    position: relative;
+    text-indent: 0;
+    left: 0;
+  }
+  #menu ul li ul{
+    margin: 0;
+    width: 100%;
+    display: none;
+  }
+  #menu ul li:hover ul{
+    display: block;
+  }
+  #menu li ul a{
+    width: 100%;
+  }
+  #menu li li a{
+    padding-left: 50px!important;
+  }
+  #footer{width: 100%;}
+}
