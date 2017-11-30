@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clock-container {
+	margin:0 auto;
+	font:normal 20px 'Open Sans', serif !important; 	
+	position:relative;
+	background-color: #33923e;
+	}
+
+	.clock-container a {text-decoration:none; display:inline-block;}
+	.clock-section {
+		background-color:#33923e;/* padding:0 5px;*/
+		width:300px;
+		margin: 0 auto;
+	}
+
+	.clock-left-col, .clock-right-col, #countdown_dashboard {
+		display:block;font:normal 24px 'Source Sans Pro', serif; padding:8px 0; width: 98%; }
+
+	.clock-left-col {margin: 0 auto; width: 100%; font-size: 30px; }
+		.clock-left-col p {font-size:30px; line-height:1.1em; margin:0; color:#000; font-weight:900;  }
+
+	.clock-right-col { margin-top:0px;}
+		.clock-right-col p	{
+			font:normal 30px/1em 'Source Sans Pro', serif ; 
+			display:block; vertical-align:top; margin:0 0 8px; color: #000;}
+		.clock-right-col p strong {
+			font:bold 30px/1em 'Source Sans Pro', serif ; 
+			color: black;
+		}
+
+		.clock-container div.register-button {text-align:center !important; padding:10px 0 30px 0 !important;}
+
+	.reg-btn-rnd {
+		margin: 0 auto;
+  	    border-radius: 4px;
+    	border: 3px solid #000;
+    	background-color: #33923e;
+	    padding: 7px 20px;
+		font:normal 24px 'Source Sans Pro', serif ;		
+		text-transform: uppercase;
+		color:#000;
+		letter-spacing:-1px;		
+	}	
+	.reg-btn-rnd:hover {background-color:#000; color:#33923e; border: 3px solid #000; border-radius: 4px;}
+	
+	#countdown_dashboard {
+    	width:395px; /*text-align:center;*/ margin:0 auto;
+	}
+	.col-clock {display:inline-block; }
+	.dash .digit .bottom, .dash .digit .top {
+	    font:bold 54.68px 'Source Sans Pro',serif; 
+		color:#1d6929;		
+	}
+	
+	.countdown-title {
+	    text-align:center;
+		font: normal 16px 'Source Sans Pro', serif; color:#fff;
+		text-transform:uppercase;
+		width: 66px;
+    }
+
+	.dash {
+		background-color:#FFF;
+	    float: left;
+	   	padding:0 5px;
+    	position: relative;
+    	margin-right:5px;
+	}
+	.dash .digit {
+    	float: left;
+	    position: relative;
+    	text-align: center;
+		height:70px;
+	}	
+
+		
+	@media (min-width: 768px) {	
+		.countdown-title { width: 86px; }
+		.clock-section {padding-top:20px; padding-bottom:20px; width: 615px;}
+		/*.col-clock	{margin-right:5px;} */
+
+		.clock-left-col, 
+	   .clock-right-col, 
+		#countdown_dashboard {
+			display:inline-block;
+			vertical-align:top; 
+			padding:0px; }		
+		
+     	#countdown_dashboard {
+     		width:380px; 
+     		margin-top:10px;
+			clear:both;
+     	}
+		.clock-left-col {  width:100%; margin: 0px 0 20px 0; text-align:center;}
+
+	.dash .digit .bottom, .dash .digit .top {
+	    font:bold 72px 'Source Sans Pro',serif; 
+		line-height: 68px;		
+	}		
+		
+		.clock-right-col {width:220px; margin-top:5px;display:inline-block;}
+		.clock-right-col p {
+			/*float:right;*/
+			margin-bottom:5px; 
+			display:inline-block;
+		}
+		
+		
+		.clock-right-col p.button-display {display: block; width: 98%;}
+		.clock-right-col p.button-display  a {display: inherit}
+		.reg-btn-rnd {font-size:  24px; }	
+		.clock-container div.register-button {padding-top:20px; padding-bottom:0px;}	
+		}
+
+		@media screen and (min-width: 1280px) {
+	
+		.clock-container {width: 100%;}
+		.clock-section{ width: 100%; padding: 0px 10px; text-align:center;}
+		#countdown_dashboard {width:405px;}
+		.clock-left-col {  width:285px; text-align:left; margin-right: 45px; margin-top:10px;}	
+		.clock-left-col p {font-size: 32px; font-weight:900;}
+		.clock-right-col {width:260px; text-align: left; margin-right:10px; }
+		.clock-right-col p {margin-bottom:0px;}
+		.clock-container div.register-button {display:inline-block !important;}
+		
+		.reg-btn-rnd {font-size:  24px;}	
+
+		.dash .digit {
+		height: 76px}
+
+		.dash .digit .bottom, .dash .digit .top{
+		line-height: 70px
+		}
+
+		.clock-container { display:table; height: 120px;}
+		.clock-section {display:table-cell;vertical-align:middle;}	
+
+		.clock-left-col, .clock-right-col, .clock-container div.register-button, #countdown_dashboard { 
+			margin-top: 0px; margin-bottom:0px; 
+			padding-top:0; padding-bottom:0;
+			vertical-align:middle;
+		}	
+
+		.clock-container div.register-button {
+			padding: 0px !important;
+		}			
+
+		}
+
+	
+
+
+

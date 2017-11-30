@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#education-schedule form input[name="title"] {width: 35%; border:0px;}
+#education-schedule form {padding:10px}
+#education-schedule form select {background-position:83% 50%;}
+#education-schedule form input {color:#888; margin: 0;}
+#education-schedule form input[type="submit"] {margin: 0 5px}
+#education-schedule form .reset {margin-top:0px;}
+
+.educSched-formblock {background-color:#e3e3e4; padding:0px; display:block}
+
+
+.educSched-formblock input.educationSchedule-search {
+    width: 35%;
+    display: inline-block;
+	height:50px;
+	vertical-align:top;
+}
+.educSched-formblock placeholder {text-align:center}
+.educSched-formblock select.dd1 {width: 17%; padding:15px 5px; }
+.educSched-formblock select.dd2 {width:100%;}
+
+.educSched-formblock select {
+    background-image: url("http://www.icff.com/wp-content/themes/icff-theme/img/select-d.png");
+    background-repeat: no-repeat;
+    background-position: 83% 50%;
+    border: medium none;
+    border-radius: 0px;
+    padding-left: 5px;
+	color:#888888;
+}
+
+.educSched-formblock select[name="date"],
+.educSched-formblock select[name="event"] {width:112%; margin-left: 3px;}
+.educSched-formblock select[name="event"] {margin:0 3px}
+
+.educSched-formblock select[name="type"],
+.educSched-formblock select[name="location"],
+.educSched-formblock select[name="track"],
+.educSched-formblock select[name="focus"],
+.educSched-formblock select[name="speaker"] {width:112%; margin-left: 3px;}
+
+
+
+.educSched-formblock div.date,
+.educSched-formblock div.event {
+    display: inline-block;
+    overflow: hidden;
+    border: none;
+    width: 17%;
+    height: 50px;
+	vertical-align:top;
+}
+.educSched-formblock div.event {width:21%;}
+
+.containerOptions {width:100%; }
+#education-schedule .containerOptions ul {padding-bottom:15px;} 
+.contentOptions ul li {width:27%; display:inline-block; overflow:hidden;}
+
+.educSched-formblock .red, .educSched-formblock .gray-btn {
+    padding: 0px;
+    display: inline-block;
+    width: 11%;
+    height: 34px;
+}
+
+#education-schedule form input[type="submit"] {
+    width: 14%;
+    border: 0px none;
+    background-color: #d71921;
+    color: #FFF;
+}
+
+
+/*div.headerOptions { width:97.5%; text-align:left; border-bottom: 1px solid #ccc;  margin:10px 0 20px; } 
+div.headerOptions { display:block; float:none;color:#000000; font:bold 1em 'Source Sans pro', sans-serif; margin:20px 0 20px 15px; line-height:0.1em;}*/
+
+/*div.headerOptions span { padding:0 10px 0 20px; background: #e6e6e6 url(../images/arrowMore.png) no-repeat 0 center; }
+
+div.headerOptions.open-options span {background: #e6e6e6 url(../images/arrowLess.png) no-repeat 0 center;  padding:0 20px;}
+*/
+.read-more-toggle {background: url(../images/readMore.png) no-repeat 0 center; padding-left:15px; color:#d71921; margin:20px 0;}
+.read-less {background: url(../images/readLess.png) no-repeat 0 center; padding-left:15px;}
+.read-more-content {display:none;}
+#education-schedule .read-more-content ul { list-style-position:inside; padding-left:15px;}
+#education-schedule .read-more-content ul li {list-style-type:disc;}
+
+.add-planner {background: url(../images/add-icon.png) no-repeat 0 center; padding-left:20px; /*margin-top:35px;*/}
+
+.contentOptions {display:none;}
+.ex-header a.current {color:#6d6e71;}
+
+.education-schedule-page .loadmore {width:auto; padding:0 50px;}
+
+
+                #education-schedule{
+                    width: 100%;
+                    background-color: #e3e3e4;
+                }
+
+                #education-schedule form > * {
+                    float: left;
+                }
+                #education-schedule form input{
+                    height: 50px;
+                    padding: 5px;
+                }
+                #education-schedule form div.floor{
+                    display: inline-block;
+                    overflow: hidden;
+                    border: 1px solid #aaa;
+                    width: 19%;
+                    height: 50px;
+                    margin: 3px;
+                }
+                #education-schedule form div.category{
+                    overflow: hidden;
+                    display: inline-block;
+                    border: 1px solid #aaa;
+                    width: 19%;
+                    height: 50px;
+                    margin: 3px;
+                }
+                #education-schedule form input[name="terms"]{
+                    width: 73%;
+                    border: 1px solid #aaa;
+
+                }
+                #education-schedule form select[name="floor"]{
+                    width: 112%;
+                    height: 50px;
+                }
+                #education-schedule form select[name="category"]{
+                    width: 112%;
+                    height: 50px;
+                }
+
+                #education-schedule form select option{
+                    width: 100%;
+                    height: 50px;
+                }
+                #education-schedule form input[type="submit"]{
+                    width: 14%;
+                    border: 0;
+                    background-color: #d71921;
+                    color: #fff;
+					font-family: 'Source Sans Pro', sans-serif;
+					text-transform:uppercase;
+                }
+                #education-schedule form .reset{
+                    width: 11%;
+                    border: 0;
+                    color: #FFF;
+                    border-radius: 0px;
+                    border: none;
+                    background: #888;
+                    outline: 0;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    height: 50px;
+					text-transform:uppercase;
+                }
+                #education-schedule ul{
+                    width: 100%;
+                    margin: 0;
+					padding: 0px;
+                }
+                #education-schedule > ul > li{
+                    background-color: #fff;
+                }
+                #education-schedule > ul > li:nth-of-type(1){
+                    background-color: #f5f5f5;
+                }				
+				
+                #education-schedule > ul > li:nth-of-type(2n){
+                    background-color: #fff;
+                }
+                #education-schedule ul li{
+                    list-style: none;
+                }
+                #education-schedule > ul > li > div:nth-of-type(1){
+                    border-top: 1px solid #ccc;
+                    padding: 0px;
+                    cursor: pointer;
+                
+                }
+                #education-schedule > ul > li.ex-header > div{
+
+                    border-top: 0;
+                    padding: 10px;
+                    display: inline-block;
+                    float: left;
+                    font-weight: bold;
+                }
+            
+                #education-schedule > ul > li > div > section {
+                    height: 100%;
+                    padding: 10px;
+                    display: inline-block;
+                    float: left;
+                    cursor: pointer;
+                    padding-top: 15px;
+					color:#6d6e71;
+                }
+                #education-schedule > ul > li > div > section:nth-of-type(2){
+                    /*border-left: 2px solid #ccc; */
+                }
+                 #education-schedule ul li.ex-header:hover > div{
+                        background-color: #f4f4f4;
+                        font-weight: bold;
+                    }
+
+                #education-schedule ul li.ex-header:hover > div{
+                        background-color: #f4f4f4;
+                        color:#000;
+                        font-weight: bold;
+                    }
+                #education-schedule > ul > li > span.open-detail{
+                    background-color: #000;
+                    color: #fff;
+                }
+                #education-schedule ul li.ex-header{
+                    font-weight: bold;
+                }
+                #education-schedule ul .ex-header:hover > div{
+                    background-color: #f5f5f5;
+                    font-weight: bold;
+                    color: #333333;
+                }
+                #education-schedule > ul > li > div:nth-of-type(1){
+                        width: 100%;
+                }
+                #education-schedule > ul > li.ex-header > div:nth-of-type(1){
+                    width: 17%;
+                }
+                #education-schedule > ul > li.ex-header > div:nth-of-type(2){
+                    width: 83%;
+					text-align:right;
+					color: #6d6e71
+					
+                }
+                
+                #education-schedule > ul > li > div > section:nth-of-type(1){
+                    width: 76%;
+
+                }
+                #education-schedule > ul > li > div > section:nth-of-type(2){
+                    width: 23%;
+                    
+                }
+                #education-schedule .detail{
+                    padding: 10px;
+                    clear: both;
+                    background-color: #fff;
+                    border-bottom: 1px solid #ccc;
+                    border-top: none;
+                    width: 100%!important;
+                    /*height: 240px;*/
+                    display: none;
+                }
+                #education-schedule .detail .logo{
+                    height: 100%;
+                    float: left;
+                    width: 36%;
+                    border-right: solid #f4f4f4 2px;
+                    text-align: center;
+                    padding: 6% 0;
+                }
+                #education-schedule .detail .logo img{
+                    max-width: 288px;
+                    width: 96%;
+                    max-height: 72px;
+                    height: auto;
+                    display: inline-block;
+                    margin: auto;
+                    vertical-align: middle;
+                }
+                #education-schedule .detail .logo span{
+                    display: inline-block;
+                    vertical-align: middle;
+                    height: 100%;
+                }
+
+                #education-schedule .detail ul{
+                    width: 63%;
+                    float: left;
+                    list-style-type: none;
+                }
+                #education-schedule .detail ul li{
+                    display: block;
+                    margin: 1%;
+                    width: 48%;
+                    float: left;
+                    font-weight: normal;
+                    list-style-position: inside;
+                    /*list-type:none;*/
+                    list-style:none;
+                    list-style-type: none;
+                }
+                #education-schedule .detail ul li span{
+                    font-weight: bold;
+                }
+
+
+                #education-schedule ul li.ex-header a{}
+                #education-schedule ul li.ex-header a span{
+                    color: #888888;
+                    position: relative;
+                    padding-left: 18px;
+                    float: right;
+                }
+                #education-schedule ul li.ex-header .print img{
+                    opacity: 0.6;
+                    position: absolute;
+                    top: 2px;
+                    left: -1px;
+                }
+                #education-schedule ul li.ex-header a:nth-of-type(2) img{
+                    opacity: 1;
+                    position: relative;
+                }
+                #education-schedule ul li.ex-header a:hover span{
+                    color: #333;
+                }
+                #education-schedule ul li.ex-header a:hover img{
+                    opacity: 1;
+                    
+                }
+
+.hide {display:none;}
+
+                /*
+                @media screen and (min-width: 767px) and (max-width: 959px){
+                    #education-schedule .detail{
+                        height: 200px;
+                    }
+                    #education-schedule .detail .logo img {
+                        
+                        width: 97%;
+                    }
+                }
+                */
+                @media screen and (max-width: 959px){
+                    #education-schedule ul li.ex-header{
+                        height: 60px;
+                    }
+                    #education-schedule > ul > li > div > p:nth-of-type(1){
+                        width: 75%;
+                    }
+                    #education-schedule > ul > li > div > p:nth-of-type(2){
+                        width: 25%;
+                    }
+                     #education-schedule > ul > li > div:nth-of-type(1){
+                                width: 100%;
+                        }
+                        #education-schedule > ul > li.ex-header > div:nth-of-type(1){
+                            width: 75%;
+                        }
+                        #education-schedule > ul > li.ex-header > div:nth-of-type(2){
+                            width: 25%;
+                        }
+                    #education-schedule form select[name="category"] {
+                            height: 50px;
+                            width: 113% !important;
+                            margin:0px !important;
+                            padding:3px !important;
+                        }
+                   #education-schedule form div.category {
+                        margin:0px !important;
+                    }
+                    #education-schedule form select[name="floor"] {
+                            height: 50px;
+                            width: 113% !important;
+                            margin:0px !important;
+                            padding:3px !important;
+                        }
+                   #education-schedule form div.floor {
+                        margin: 0px !important;
+                        margin-bottom: 5px !important;
+                    }
+                    #education-schedule form input, #education-schedule form select{
+                        width: 100%!important;
+                        display: block;
+                        margin: 5px 0px !important;
+                    }
+                    #education-schedule .reset {
+                        width: 100%!important;
+                        display: block;
+                        margin: 5px 0px !important;
+                    }
+                    #education-schedule form div.floor {
+                        display: inline-block;
+                        overflow: hidden;
+                        border: 1px solid #AAA;
+                        width: 100%;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                    #education-schedule form div.category {
+                        display: inline-block;
+                        overflow: hidden;
+                        border: 1px solid #AAA;
+                        width: 100%;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                    #education-schedule > ul > li > div{
+                        height: 100%;
+                    }
+                    #education-schedule .detail .logo img {
+                    margin-bottom:15px;
+                    }
+                    #education-schedule .detail {
+                        padding: 10px;
+                        clear: both;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        width: 100%!important;
+                        height: auto;
+                    }
+                    #education-schedule .detail .logo{
+                        float: none;
+                        width: 100%;
+                        border-right: none;
+                    }
+                    #education-schedule .detail ul {
+                        width: 100%;
+                        float: none;
+                        list-style-type: none;
+                    }
+                    #education-schedule .detail ul li {
+                        display: block;
+                        margin: 1%;
+                        width: 98%;
+                        float: none;
+                        list-style-type: none;
+                    }
+                    #education-schedule .detail .logo img{
+                        display: block;
+                    }
+                    #education-schedule .detail .logo span{
+                        display: none;
+                    }
+                }
+                @media screen and (max-width: 767px){
+                    #education-schedule ul li.ex-header {
+                        height: 80px;
+                    }
+                    #education-schedule .detail .logo img {
+                      max-width: 288px;
+                    }
+                    .ex-header div > span{
+                        display: block;
+                        float: none !important;
+                    }
+                    .filter-letter{
+                        width: 185px;
+                        float: none;
+                        display: block;
+                        float:right;
+                        text-align:right;
+                        margin:10px 0px;
+                    }
+                    .sort-letters {
+                        text-align:left;
+                    }
+                }
+                .loadmore {
+                color: #FFF;
+                border-radius: 0px;
+                border:none;
+                width: 50%;
+                height: 50px;
+                background: #d71921;
+                outline: 0;
+                font-family: 'Source Sans Pro', sans-serif;
+		text-transform:uppercase;
+                }
+                 .loadbutton{
+                    padding-top:10px;
+                    text-align: center;
+                }
+
